@@ -28,7 +28,7 @@ async function performDatabaseOperations() {
     }
     await db.close()
     console.log(`[${new Date()}] Database connection has been closed`);
-    // process.exit(0)
+    process.exit(0)
 }
 
 performDatabaseOperations().catch(console.error)

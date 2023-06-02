@@ -13,8 +13,8 @@ export async function handleJsonPayment(entry: any) {
     const node = { "10.255.33.18:50211": new AccountId(3) };
     const ed25519_client = Client.forNetwork(node).setMirrorNetwork(mirror).setMaxAttempts(1000000);
     ed25519_client.setOperator(
-        AccountId.fromString("0.0.1022"),
-        PrivateKey.fromStringED25519("0xa608e2130a0a3cb34f86e757303c862bee353d9ab77ba4387ec084f881d420d4")
+        AccountId.fromString("0.0.1023"),
+        PrivateKey.fromStringED25519("0xbbd0894de0b4ecfa862e963825c5448d2d17f807a16869526bff29185747acdb")
     );
 
     const { id, identifier, buyer, seller, energy, price, timestamp } = entry;

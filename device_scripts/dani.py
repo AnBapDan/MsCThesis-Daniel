@@ -28,20 +28,23 @@ def measure():
         "reactiveCapacitive": reactiveCapacitive,
         "timestamp": timestamp
     }
-
-    r = requests.post(url,
-                    headers={
-                        'authorization': hash,
-                        'deviceid': meterId,
-                        'timestamp': timestamp
-                    },
-                    json=measure_JSON
-                    )
-    print('['+str(datetime.now())+'] Measurements sent.')
-
-    store_payments(r)
-
-
+    
+    try:
+        r = requests.post(url,
+            headers={
+                'authorization': hash,
+                'deviceid': meterId,
+                'timestamp': timestamp
+            },
+            json=measure_JSON
+            )
+        
+        print('['+str(datetime.now())+'] Measurements sent.')          
+        store_payments(r)
+    except requests.exceptions.Timeout:
+        print('['+str(datetime.now())+'] Measure '+measure_JSON+' got Timed Out.')
+    except requests.exceptions.RequestException as e:
+        print('['+str(datetime.now())+'] Measure '+measure_JSON+' got an unexpected error: ' + e)
 
 
 def store_payments(r):
