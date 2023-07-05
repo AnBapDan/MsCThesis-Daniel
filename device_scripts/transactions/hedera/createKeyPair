@@ -1,0 +1,8 @@
+import { PrivateKey } from "@hashgraph/sdk";
+
+export async function genkeys(){
+  const privateKey = await PrivateKey.generateED25519Async();
+  const publicKey = privateKey.publicKey;
+  console.log("private key = " + privateKey);
+  console.log("public key = " + publicKey);
+}
