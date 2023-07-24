@@ -2,7 +2,7 @@ import { AccountId, Client, ContractCreateFlow, PrivateKey } from '@hashgraph/sd
 import fs from 'fs';
 import path from "path";
 
-const mirror = "10.255.33.18:5600"
+const mirror = "10.255.33.18:5551"
 const node = { "10.255.33.18:50211": new AccountId(3) };
 
 async function deployContract(dir:string,memo:string){
@@ -20,7 +20,7 @@ async function deployContract(dir:string,memo:string){
 
     );
 
-   const contract = new ContractCreateFlow().setBytecode(contractBytecode).setContractMemo(memo);
+   const contract = new ContractCreateFlow().setBytecode(contractBytecode).setContractMemo(memo).setGas(10_000_000);
    
    const txResponse = await contract.execute(manager);
    const receipt = await txResponse.getReceipt(manager)
