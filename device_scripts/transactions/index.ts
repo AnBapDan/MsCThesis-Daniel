@@ -1,28 +1,22 @@
-import { Database, Statement } from 'sqlite3';
+import * as mariadb from 'mariadb';
+
 import { emitTopicMessage, handleJsonPayment, handleTxPayment } from './hedera/sendTransaction';
-import { open } from 'sqlite'
 
-
-async function connect() {
-    const db = await open({
-        filename: '/home/es-admin/setup_meter/payments.sqlite',
-        driver: Database,
-    })
-    return db;
-}
+const pool = mariadb.createPool({host: 'localhost', user: 'root', connectionLimit: 5, database:'payments'});
 async function performDatabaseOperations() {
-    const db = await connect();
-
-    const output = await db.exec('CREATE TABLE IF NOT EXISTS issued (id INTEGER PRIMARY KEY, payment TEXT, tx TEXT)')
+    const db = await pool.getConnection()
+    
+    const output = await db.query('CREATE TABLE IF NOT EXISTS issued (id INT AUTO_INCREMENT PRIMARY KEY, payment TEXT, tx TEXT)')
     console.log(`[${new Date()}] Table created `)
     await txTransactions(db);
     await jsonTransactions(db);
-    await db.close()
+    await db.release()
     process.exit(0)
 }
 
-async function jsonTransactions(db:any){
-    const result = await db.all('SELECT * FROM json_payments', async (err: any, entries: any[]) => {
+async function jsonTransactions(db:mariadb.PoolConnection){
+    console.log(`[${new Date()}] Handling json payments `)
+    const result = await db.query('SELECT * FROM json_payments', async (err: any, entries: any[]) => {
         if (err) {
             console.error(`[${new Date()}] This occured when querying with the following error: ${err} `);
         }
@@ -32,14 +26,16 @@ async function jsonTransactions(db:any){
         const txId = await handleJsonPayment(entry);
         const { id } = entry;
         console.log(id)
-        await db.run('DELETE FROM json_payments WHERE id = ?', [id])
+        await db.query('DELETE FROM json_payments WHERE id = ?', [id])
 
         await emitTopicMessage({ payment: id, tx: txId })
-        await db.exec(`INSERT INTO issued (payment, tx) VALUES ('${id}', '${txId}')`)
+        await db.query(`INSERT INTO issued (payment, tx) VALUES ('${id}', '${txId}')`)
     } 
 }
-async function txTransactions(db: any) {
-    const result = await db.all('SELECT * FROM tx_payments', async (err: any, entries: any[]) => {
+
+async function txTransactions(db: mariadb.PoolConnection) {
+    console.log(`[${new Date()}] Handling Byte Array payments `)
+    const result = await db.query('SELECT * FROM tx_payments', async (err: any, entries: any[]) => {
         if (err) {
             console.error(`[${new Date()}] This occured when querying with the following error: ${err} `);
         }
@@ -50,11 +46,11 @@ async function txTransactions(db: any) {
         const txId = await handleTxPayment(entry);
         const { id } = entry;
         console.log(id)
-        await db.run('DELETE FROM tx_payments WHERE id = ?', [id])
+        await db.query('DELETE FROM tx_payments WHERE id = ?', [id])
 
         await emitTopicMessage({ payment: id, tx: txId })
-        await db.exec(`INSERT INTO issued (payment, tx) VALUES ('${id}', '${txId}')`)
+        await db.query(`INSERT INTO issued (payment, tx) VALUES ('${id}', '${txId}')`)
     }
 }
 
-performDatabaseOperations().catch(console.error)
+performDatabaseOperations().catch(() =>{console.error; process.exit(-1)})

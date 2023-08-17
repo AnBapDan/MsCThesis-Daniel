@@ -1,5 +1,5 @@
 import sqlite3
-conn = sqlite3.connect('/home/es-admin/setup_meter/metrics.sqlite')
+conn = sqlite3.connect('/home/es-admin/metrics.sqlite')
 cursor = conn.cursor()
 
 def main():

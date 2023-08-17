@@ -9,8 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@hashgraph/sdk": "^2.25.0",
-    "sqlite": "^4.2.1",
-    "sqlite3": "^5.1.6"
+    "@hashgraph/sdk": "^2.31.0",
+    "mariadb": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.0"
   }
 }

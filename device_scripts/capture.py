@@ -2,7 +2,7 @@ import pyshark
 import sqlite3
 from datetime import datetime
 
-conn = sqlite3.connect('/home/es-admin/setup_meter/metrics.sqlite')
+conn = sqlite3.connect('/home/es-admin/metrics.sqlite')
 cursor = conn.cursor()
 
 def main():
