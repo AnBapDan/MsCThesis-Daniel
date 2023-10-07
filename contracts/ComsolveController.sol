@@ -9,8 +9,8 @@ contract ComsolveController {
     }
 
     address public owner;
+    
     error UnauthorizedAccess(address issuer);
-
     mapping(uint => Payment) pendingApproval;
     uint[] pendingId;
     mapping(address => uint) payed;

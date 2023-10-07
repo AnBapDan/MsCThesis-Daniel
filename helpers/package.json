@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@hashgraph/sdk": "^2.28.0"
+    "@hashgraph/hethers": "^1.2.6",
+    "@hashgraph/sdk": "^2.28.0",
+    "ethers": "^6.7.1"
   }
 }

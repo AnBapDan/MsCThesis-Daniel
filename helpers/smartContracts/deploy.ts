@@ -24,7 +24,8 @@ async function deployContract(dir:string,memo:string){
    
    const txResponse = await contract.execute(manager);
    const receipt = await txResponse.getReceipt(manager)
-   console.log(receipt.contractId)
+   console.log(receipt.contractId?.evmAddress+'')
 }
 
-deployContract('../../bin/contracts/ComsolveController.bin','COMSOLVE Community')
+deployContract('../../bin/contracts/ComsolveController.bin','Ready to Test (all-mighty)')
+deployContract('../../bin/contracts/DeviceConfirmTransaction.bin','Ready to Test(peers-control)')
