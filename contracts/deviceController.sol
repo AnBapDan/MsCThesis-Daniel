@@ -55,7 +55,7 @@ contract DeviceConfirmTransaction{
         return pendingIds[msg.sender];
     }
 
-    function retrievePayments(uint index)external view returns(Payment memory){
+    function retrievePayments(uint index) external view returns(Payment memory){
         return pendingApproval[msg.sender][index];
     }
 

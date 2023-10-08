@@ -17,6 +17,7 @@ async function deployContract(dir: string, memo: string) {
   const contractCreate = new ContractCreateFlow()
     .setGas(100000)
     .setBytecode(contractBytecode)
+    .setContractMemo(memo)
     .setConstructorParameters(new ContractFunctionParameters());
 
   //Sign the transaction with the client operator key and submit to a Hedera network
