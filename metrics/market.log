@@ -1,0 +1,3490 @@
+2023-09-12T17:00:00Z
+[timestamp: "2023-09-12T17:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.057
+price: 0.0962
+id: "65009a3ec9ccfdb40edf73ae"
+createdAt: "2023-09-12T17:15:15Z"
+transactionID: "0.0.1034@1694538902.187900581"
+transactionState: Paid
+]
+2023-09-12T17:15:00Z
+[timestamp: "2023-09-12T17:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.037
+price: 0.0962
+id: "65009dc21326fd32fff43713"
+createdAt: "2023-09-12T17:30:15Z"
+transactionID: "0.0.1034@1694539802.673052244"
+transactionState: Paid
+]
+2023-09-12T17:30:00Z
+[timestamp: "2023-09-12T17:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.027
+price: 0.0962
+id: "6500a146590e348e7d41e191"
+createdAt: "2023-09-12T17:45:16Z"
+transactionID: "0.0.1034@1694540700.625230365"
+transactionState: Paid
+]
+2023-09-12T17:45:00Z
+[]
+2023-09-12T18:00:00Z
+[]
+2023-09-12T18:15:00Z
+[]
+2023-09-12T18:30:00Z
+[]
+2023-09-12T18:45:00Z
+[]
+2023-09-12T19:00:00Z
+[]
+2023-09-12T19:15:00Z
+[]
+2023-09-12T19:30:00Z
+[]
+2023-09-12T19:45:00Z
+[]
+2023-09-12T20:00:00Z
+[]
+2023-09-12T20:15:00Z
+[]
+2023-09-12T20:30:00Z
+[]
+2023-09-12T20:45:00Z
+[]
+2023-09-12T21:00:00Z
+[]
+2023-09-12T21:15:00Z
+[]
+2023-09-12T21:30:00Z
+[]
+2023-09-12T21:45:00Z
+[]
+2023-09-12T22:00:00Z
+[]
+2023-09-12T22:15:00Z
+[]
+2023-09-12T22:30:00Z
+[]
+2023-09-12T22:45:00Z
+[]
+2023-09-12T23:00:00Z
+[]
+2023-09-12T23:15:00Z
+[]
+2023-09-12T23:30:00Z
+[]
+2023-09-12T23:45:00Z
+[]
+2023-09-13T00:00:00Z
+[]
+2023-09-13T00:15:00Z
+[]
+2023-09-13T00:30:00Z
+[]
+2023-09-13T00:45:00Z
+[]
+2023-09-13T01:00:00Z
+[]
+2023-09-13T01:15:00Z
+[]
+2023-09-13T01:30:00Z
+[]
+2023-09-13T01:45:00Z
+[]
+2023-09-13T02:00:00Z
+[]
+2023-09-13T02:15:00Z
+[]
+2023-09-13T02:30:00Z
+[]
+2023-09-13T02:45:00Z
+[]
+2023-09-13T03:00:00Z
+[]
+2023-09-13T03:15:00Z
+[]
+2023-09-13T03:30:00Z
+[]
+2023-09-13T03:45:00Z
+[]
+2023-09-13T04:00:00Z
+[]
+2023-09-13T04:15:00Z
+[]
+2023-09-13T04:30:00Z
+[]
+2023-09-13T04:45:00Z
+[]
+2023-09-13T05:00:00Z
+[]
+2023-09-13T05:15:00Z
+[]
+2023-09-13T05:30:00Z
+[]
+2023-09-13T05:45:00Z
+[]
+2023-09-13T06:00:00Z
+[]
+2023-09-13T06:15:00Z
+[]
+2023-09-13T06:30:00Z
+[]
+2023-09-13T06:45:00Z
+[]
+2023-09-13T07:00:00Z
+[]
+2023-09-13T07:15:00Z
+[]
+2023-09-13T07:30:00Z
+[]
+2023-09-13T07:45:00Z
+[timestamp: "2023-09-13T07:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.004
+price: 0.0962
+id: "650169aa25136b2f551df1d5"
+createdAt: "2023-09-13T08:00:16Z"
+transactionID: "0.0.1034@1694592000.130067504"
+transactionState: Paid
+]
+2023-09-13T08:00:00Z
+[timestamp: "2023-09-13T08:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.026
+price: 0.0962
+id: "65016d2e674741d9d73bf900"
+createdAt: "2023-09-13T08:15:15Z"
+transactionID: "0.0.1034@1694592902.725005991"
+transactionState: Paid
+]
+2023-09-13T08:15:00Z
+[timestamp: "2023-09-13T08:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.037
+price: 0.0962
+id: "650170b153483f6f494e1a87"
+createdAt: "2023-09-13T08:30:15Z"
+transactionID: "0.0.1034@1694593803.140254669"
+transactionState: Paid
+]
+2023-09-13T08:30:00Z
+[timestamp: "2023-09-13T08:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.047
+price: 0.0962
+id: "65017436d75a9be9b8fff0ef"
+createdAt: "2023-09-13T08:45:15Z"
+transactionID: "0.0.1034@1694594702.519104116"
+transactionState: Paid
+]
+2023-09-13T08:45:00Z
+[timestamp: "2023-09-13T08:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.054
+price: 0.0962
+id: "650177ba5d679f31e6f2e6ad"
+createdAt: "2023-09-13T09:00:17Z"
+transactionID: "0.0.1034@1694595605.266118340"
+transactionState: Paid
+]
+2023-09-13T09:00:00Z
+[timestamp: "2023-09-13T09:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.042
+price: 0.0962
+id: "65017b3d90cd5b6485c6adae"
+createdAt: "2023-09-13T09:15:15Z"
+transactionID: "0.0.1034@1694596500.161350140"
+transactionState: Paid
+]
+2023-09-13T09:15:00Z
+[timestamp: "2023-09-13T09:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.087
+price: 0.0962
+id: "65017ec1be55ea8f946735a6"
+createdAt: "2023-09-13T09:30:15Z"
+transactionID: "0.0.1034@1694597400.482290082"
+transactionState: Paid
+]
+2023-09-13T09:30:00Z
+[timestamp: "2023-09-13T09:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.312
+price: 0.0962
+id: "650182461985283cf3e0978b"
+createdAt: "2023-09-13T09:45:15Z"
+transactionID: "0.0.1034@1694598299.764849294"
+transactionState: Paid
+]
+2023-09-13T09:45:00Z
+[timestamp: "2023-09-13T09:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.34
+price: 0.0962
+id: "650185cadedb229a217049ab"
+createdAt: "2023-09-13T10:00:15Z"
+transactionID: "0.0.1034@1694599203.687195526"
+transactionState: Paid
+]
+2023-09-13T10:00:00Z
+[timestamp: "2023-09-13T10:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.307
+price: 0.0962
+id: "6501894ed7ec85e9dc6f5897"
+createdAt: "2023-09-13T21:00:15Z"
+transactionID: "0.0.1034@1694638799.607107319"
+transactionState: Paid
+]
+2023-09-13T10:15:00Z
+[]
+2023-09-13T10:30:00Z
+[]
+2023-09-13T10:45:00Z
+[]
+2023-09-13T11:00:00Z
+[]
+2023-09-13T11:15:00Z
+[]
+2023-09-13T11:30:00Z
+[]
+2023-09-13T11:45:00Z
+[]
+2023-09-13T12:00:00Z
+[]
+2023-09-13T12:15:00Z
+[]
+2023-09-13T12:30:00Z
+[]
+2023-09-13T12:45:00Z
+[]
+2023-09-13T13:00:00Z
+[]
+2023-09-13T13:15:00Z
+[]
+2023-09-13T13:30:00Z
+[]
+2023-09-13T13:45:00Z
+[]
+2023-09-13T14:00:00Z
+[]
+2023-09-13T14:15:00Z
+[]
+2023-09-13T14:30:00Z
+[]
+2023-09-13T14:45:00Z
+[]
+2023-09-13T15:00:00Z
+[]
+2023-09-13T15:15:00Z
+[]
+2023-09-13T15:30:00Z
+[]
+2023-09-13T15:45:00Z
+[]
+2023-09-13T16:00:00Z
+[]
+2023-09-13T16:15:00Z
+[]
+2023-09-13T16:30:00Z
+[]
+2023-09-13T16:45:00Z
+[]
+2023-09-13T17:00:00Z
+[]
+2023-09-13T17:15:00Z
+[]
+2023-09-13T17:30:00Z
+[]
+2023-09-13T17:45:00Z
+[]
+2023-09-13T18:00:00Z
+[]
+2023-09-13T18:15:00Z
+[]
+2023-09-13T18:30:00Z
+[]
+2023-09-13T18:45:00Z
+[]
+2023-09-13T19:00:00Z
+[]
+2023-09-13T19:15:00Z
+[]
+2023-09-13T19:30:00Z
+[]
+2023-09-13T19:45:00Z
+[]
+2023-09-13T20:00:00Z
+[]
+2023-09-13T20:15:00Z
+[]
+2023-09-13T20:30:00Z
+[]
+2023-09-13T20:45:00Z
+[]
+2023-09-13T21:00:00Z
+[]
+2023-09-13T21:15:00Z
+[]
+2023-09-13T21:30:00Z
+[]
+2023-09-13T21:45:00Z
+[]
+2023-09-13T22:00:00Z
+[]
+2023-09-13T22:15:00Z
+[]
+2023-09-13T22:30:00Z
+[]
+2023-09-13T22:45:00Z
+[]
+2023-09-13T23:00:00Z
+[]
+2023-09-13T23:15:00Z
+[]
+2023-09-13T23:30:00Z
+[]
+2023-09-13T23:45:00Z
+[]
+2023-09-14T00:00:00Z
+[]
+2023-09-14T00:15:00Z
+[]
+2023-09-14T00:30:00Z
+[]
+2023-09-14T00:45:00Z
+[]
+2023-09-14T01:00:00Z
+[]
+2023-09-14T01:15:00Z
+[]
+2023-09-14T01:30:00Z
+[]
+2023-09-14T01:45:00Z
+[]
+2023-09-14T02:00:00Z
+[]
+2023-09-14T02:15:00Z
+[]
+2023-09-14T02:30:00Z
+[]
+2023-09-14T02:45:00Z
+[]
+2023-09-14T03:00:00Z
+[]
+2023-09-14T03:15:00Z
+[]
+2023-09-14T03:30:00Z
+[]
+2023-09-14T03:45:00Z
+[]
+2023-09-14T04:00:00Z
+[]
+2023-09-14T04:15:00Z
+[]
+2023-09-14T04:30:00Z
+[]
+2023-09-14T04:45:00Z
+[]
+2023-09-14T05:00:00Z
+[]
+2023-09-14T05:15:00Z
+[]
+2023-09-14T05:30:00Z
+[]
+2023-09-14T05:45:00Z
+[]
+2023-09-14T06:00:00Z
+[]
+2023-09-14T06:15:00Z
+[]
+2023-09-14T06:30:00Z
+[]
+2023-09-14T06:45:00Z
+[]
+2023-09-14T07:00:00Z
+[]
+2023-09-14T07:15:00Z
+[timestamp: "2023-09-14T07:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.002
+price: 0.0962
+id: "6502b42281932502f5792a3e"
+createdAt: "2023-09-14T07:30:15Z"
+transactionID: "0.0.1034@1694676599.617885497"
+transactionState: Paid
+]
+2023-09-14T07:30:00Z
+[]
+2023-09-14T07:45:00Z
+[timestamp: "2023-09-14T07:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.024
+price: 0.0962
+id: "6502bb2ae9a18b7f5bd39168"
+createdAt: "2023-09-14T08:15:14Z"
+transactionID: "0.0.1034@1694678399.688231304"
+transactionState: Paid
+]
+2023-09-14T08:00:00Z
+[timestamp: "2023-09-14T08:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.026
+price: 0.0962
+id: "6502beae9ce2d3121e49aa3f"
+createdAt: "2023-09-14T08:15:15Z"
+transactionID: "0.0.1034@1694679302.011346746"
+transactionState: Paid
+]
+2023-09-14T08:15:00Z
+[timestamp: "2023-09-14T08:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.026
+price: 0.0962
+id: "6502c23255e2fcf0b4c1ec3a"
+createdAt: "2023-09-14T08:30:15Z"
+transactionID: "0.0.1034@1694680203.636233503"
+transactionState: Paid
+]
+2023-09-14T08:30:00Z
+[timestamp: "2023-09-14T08:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.03
+price: 0.0962
+id: "6502c5b61b29c6f47473160d"
+createdAt: "2023-09-14T08:45:15Z"
+transactionID: "0.0.1034@1694681101.360965092"
+transactionState: Paid
+]
+2023-09-14T08:45:00Z
+[timestamp: "2023-09-14T08:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.042
+price: 0.0962
+id: "6502c93ad4e903518cf7f251"
+createdAt: "2023-09-14T09:00:15Z"
+transactionID: "0.0.1034@1694681999.738810243"
+transactionState: Paid
+]
+2023-09-14T09:00:00Z
+[timestamp: "2023-09-14T09:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.207
+price: 0.0962
+id: "6502ccbd95fceff6c008b279"
+createdAt: "2023-09-14T09:15:15Z"
+transactionID: "0.0.1034@1694682902.701108091"
+transactionState: Paid
+]
+2023-09-14T09:15:00Z
+[timestamp: "2023-09-14T09:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.286
+price: 0.0962
+id: "6502d042b58b375dcd1412ca"
+createdAt: "2023-09-14T09:30:15Z"
+transactionID: "0.0.1034@1694683802.243183945"
+transactionState: Paid
+]
+2023-09-14T09:30:00Z
+[timestamp: "2023-09-14T09:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.258
+price: 0.0962
+id: "6502d3c688d2ebe83f648041"
+createdAt: "2023-09-14T09:45:15Z"
+transactionID: "0.0.1034@1694684703.268516519"
+transactionState: Paid
+]
+2023-09-14T09:45:00Z
+[timestamp: "2023-09-14T09:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.234
+price: 0.0962
+id: "6502d74a79f20ba6aa30a4f3"
+createdAt: "2023-09-14T10:00:15Z"
+transactionID: "0.0.1034@1694685599.960489814"
+transactionState: Paid
+]
+2023-09-14T10:00:00Z
+[timestamp: "2023-09-14T10:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.259
+price: 0.0962
+id: "6502dace0ba33d21adc3620f"
+createdAt: "2023-09-14T10:15:15Z"
+transactionID: "0.0.1034@1694686503.009089403"
+transactionState: Paid
+]
+2023-09-14T10:15:00Z
+[timestamp: "2023-09-14T10:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.27
+price: 0.0962
+id: "6502de513393ac3e5068d2a7"
+createdAt: "2023-09-14T10:30:15Z"
+transactionID: "0.0.1034@1694687400.052124464"
+transactionState: Paid
+]
+2023-09-14T10:30:00Z
+[timestamp: "2023-09-14T10:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.274
+price: 0.0962
+id: "6502e1d67678a7d23f610f47"
+createdAt: "2023-09-14T10:45:15Z"
+transactionID: "0.0.1034@1694688299.946979563"
+transactionState: Paid
+]
+2023-09-14T10:45:00Z
+[timestamp: "2023-09-14T10:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.269
+price: 0.0962
+id: "6502e55a52871cd2e6bf019c"
+createdAt: "2023-09-14T11:00:15Z"
+transactionID: "0.0.1034@1694689201.446856385"
+transactionState: Paid
+]
+2023-09-14T11:00:00Z
+[timestamp: "2023-09-14T11:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.28
+price: 0.0962
+id: "6502e8de326ec1abf347611b"
+createdAt: "2023-09-14T11:15:14Z"
+transactionID: "0.0.1034@1694690099.172798262"
+transactionState: Paid
+]
+2023-09-14T11:15:00Z
+[timestamp: "2023-09-14T11:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.273
+price: 0.0962
+id: "6502ec62b6903a2a3c13ac3b"
+createdAt: "2023-09-14T11:30:15Z"
+transactionID: "0.0.1034@1694691002.186425976"
+transactionState: Paid
+]
+2023-09-14T11:30:00Z
+[timestamp: "2023-09-14T11:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.312
+price: 0.0962
+id: "6502efe6bcb43fc061485527"
+createdAt: "2023-09-14T11:45:14Z"
+transactionID: "0.0.1034@1694691899.652563183"
+transactionState: Paid
+]
+2023-09-14T11:45:00Z
+[timestamp: "2023-09-14T11:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.282
+price: 0.0962
+id: "6502f36ae06c31c60e717686"
+createdAt: "2023-09-14T12:00:14Z"
+transactionID: "0.0.1034@1694692798.408768474"
+transactionState: Paid
+]
+2023-09-14T12:00:00Z
+[timestamp: "2023-09-14T12:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.282
+price: 0.0962
+id: "6502f6edb1d59bc8fd5f7f6f"
+createdAt: "2023-09-14T12:15:14Z"
+transactionID: "0.0.1034@1694693702.451934158"
+transactionState: Paid
+]
+2023-09-14T12:15:00Z
+[timestamp: "2023-09-14T12:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.27
+price: 0.0962
+id: "6502fa727804f83350730f40"
+createdAt: "2023-09-14T12:30:16Z"
+transactionID: "0.0.1034@1694694601.497923110"
+transactionState: Paid
+]
+2023-09-14T12:30:00Z
+[timestamp: "2023-09-14T12:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.249
+price: 0.0962
+id: "6502fdf608acb594ed7ff608"
+createdAt: "2023-09-14T12:45:15Z"
+transactionID: "0.0.1034@1694695498.896350018"
+transactionState: Paid
+]
+2023-09-14T12:45:00Z
+[timestamp: "2023-09-14T12:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.252
+price: 0.0962
+id: "6503017a64109c6d96aa6801"
+createdAt: "2023-09-14T13:00:14Z"
+transactionID: "0.0.1034@1694696398.875460979"
+transactionState: Paid
+]
+2023-09-14T13:00:00Z
+[timestamp: "2023-09-14T13:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.273
+price: 0.0962
+id: "650304fed83fec5875148d62"
+createdAt: "2023-09-14T13:15:14Z"
+transactionID: "0.0.1034@1694697298.481840812"
+transactionState: Paid
+]
+2023-09-14T13:15:00Z
+[timestamp: "2023-09-14T13:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.332
+price: 0.0962
+id: "650308825a1113e591b76d8e"
+createdAt: "2023-09-14T13:30:14Z"
+transactionID: "0.0.1034@1694698199.943924718"
+transactionState: Paid
+]
+2023-09-14T13:30:00Z
+[timestamp: "2023-09-14T13:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.3
+price: 0.0962
+id: "65030c06ec445829f8263655"
+createdAt: "2023-09-14T13:45:15Z"
+transactionID: "0.0.1034@1694699102.777071530"
+transactionState: Paid
+]
+2023-09-14T13:45:00Z
+[timestamp: "2023-09-14T13:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.384
+price: 0.0962
+id: "65030f8a96e707abb4f2ec4c"
+createdAt: "2023-09-14T14:00:15Z"
+transactionID: "0.0.1034@1694699999.789851499"
+transactionState: Paid
+]
+2023-09-14T14:00:00Z
+[timestamp: "2023-09-14T14:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.333
+price: 0.0962
+id: "6503130e33205a57940de4f0"
+createdAt: "2023-09-14T14:15:15Z"
+transactionID: "0.0.1034@1694700901.627577629"
+transactionState: Paid
+]
+2023-09-14T14:15:00Z
+[timestamp: "2023-09-14T14:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.387
+price: 0.0962
+id: "6503169210d3013f63dcb9d1"
+createdAt: "2023-09-14T14:30:16Z"
+transactionID: "0.0.1034@1694701799.446775777"
+transactionState: Paid
+]
+2023-09-14T14:30:00Z
+[timestamp: "2023-09-14T14:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.357
+price: 0.0962
+id: "65031a16bc3426ca356eb32f"
+createdAt: "2023-09-14T14:45:15Z"
+transactionID: "0.0.1034@1694702700.987409066"
+transactionState: Paid
+]
+2023-09-14T14:45:00Z
+[timestamp: "2023-09-14T14:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.338
+price: 0.0962
+id: "65031d99e93fd5a0b5d0ca24"
+createdAt: "2023-09-14T15:00:15Z"
+transactionID: "0.0.1034@1694703599.038078824"
+transactionState: Paid
+]
+2023-09-14T15:00:00Z
+[timestamp: "2023-09-14T15:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.338
+price: 0.0962
+id: "6503211e32e88a5147977441"
+createdAt: "2023-09-14T15:15:16Z"
+transactionID: "0.0.1034@1694704503.106409770"
+transactionState: Paid
+]
+2023-09-14T15:15:00Z
+[timestamp: "2023-09-14T15:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.301
+price: 0.0962
+id: "650324a25e2f755b56d43f61"
+createdAt: "2023-09-14T15:45:14Z"
+transactionID: "-1"
+transactionState: Error
+message: " Something went wrong when fetching the exchange rate"
+]
+2023-09-14T15:30:00Z
+[]
+2023-09-14T15:45:00Z
+[]
+2023-09-14T16:00:00Z
+[]
+2023-09-14T16:15:00Z
+[]
+2023-09-14T16:30:00Z
+[]
+2023-09-14T16:45:00Z
+[]
+2023-09-14T17:00:00Z
+[]
+2023-09-14T17:15:00Z
+[]
+2023-09-14T17:30:00Z
+[]
+2023-09-14T17:45:00Z
+[]
+2023-09-14T18:00:00Z
+[]
+2023-09-14T18:15:00Z
+[]
+2023-09-14T18:30:00Z
+[]
+2023-09-14T18:45:00Z
+[]
+2023-09-14T19:00:00Z
+[]
+2023-09-14T19:15:00Z
+[]
+2023-09-14T19:30:00Z
+[]
+2023-09-14T19:45:00Z
+[]
+2023-09-14T20:00:00Z
+[]
+2023-09-14T20:15:00Z
+[]
+2023-09-14T20:30:00Z
+[]
+2023-09-14T20:45:00Z
+[]
+2023-09-14T21:00:00Z
+[]
+2023-09-14T21:15:00Z
+[]
+2023-09-14T21:30:00Z
+[]
+2023-09-14T21:45:00Z
+[]
+2023-09-14T22:00:00Z
+[]
+2023-09-14T22:15:00Z
+[]
+2023-09-14T22:30:00Z
+[]
+2023-09-14T22:45:00Z
+[]
+2023-09-14T23:00:00Z
+[]
+2023-09-14T23:15:00Z
+[]
+2023-09-14T23:30:00Z
+[]
+2023-09-14T23:45:00Z
+[]
+2023-09-15T00:00:00Z
+[]
+2023-09-15T00:15:00Z
+[]
+2023-09-15T00:30:00Z
+[]
+2023-09-15T00:45:00Z
+[]
+2023-09-15T01:00:00Z
+[]
+2023-09-15T01:15:00Z
+[]
+2023-09-15T01:30:00Z
+[]
+2023-09-15T01:45:00Z
+[]
+2023-09-15T02:00:00Z
+[]
+2023-09-15T02:15:00Z
+[]
+2023-09-15T02:30:00Z
+[]
+2023-09-15T02:45:00Z
+[]
+2023-09-15T03:00:00Z
+[]
+2023-09-15T03:15:00Z
+[]
+2023-09-15T03:30:00Z
+[]
+2023-09-15T03:45:00Z
+[]
+2023-09-15T04:00:00Z
+[]
+2023-09-15T04:15:00Z
+[]
+2023-09-15T04:30:00Z
+[]
+2023-09-15T04:45:00Z
+[]
+2023-09-15T05:00:00Z
+[]
+2023-09-15T05:15:00Z
+[]
+2023-09-15T05:30:00Z
+[]
+2023-09-15T05:45:00Z
+[]
+2023-09-15T06:00:00Z
+[]
+2023-09-15T06:15:00Z
+[]
+2023-09-15T06:30:00Z
+[]
+2023-09-15T06:45:00Z
+[]
+2023-09-15T07:00:00Z
+[]
+2023-09-15T07:15:00Z
+[]
+2023-09-15T07:30:00Z
+[timestamp: "2023-09-15T07:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.025
+price: 0.0962
+id: "650409251bb18ffaa51cb9c2"
+createdAt: "2023-09-15T07:45:14Z"
+transactionID: "0.0.1034@1694763898.322762477"
+transactionState: Paid
+]
+2023-09-15T07:45:00Z
+[timestamp: "2023-09-15T07:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.033
+price: 0.0962
+id: "65040caa4e2b72e4dc33792a"
+createdAt: "2023-09-15T08:00:15Z"
+transactionID: "0.0.1034@1694764800.856297387"
+transactionState: Paid
+]
+2023-09-15T08:00:00Z
+[timestamp: "2023-09-15T08:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.041
+price: 0.0962
+id: "6504102e5ef2badf7e6ba6e5"
+createdAt: "2023-09-15T08:15:15Z"
+transactionID: "0.0.1034@1694765701.875370111"
+transactionState: Paid
+]
+2023-09-15T08:15:00Z
+[timestamp: "2023-09-15T08:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.04
+price: 0.0962
+id: "650413b259db567740c0de44"
+createdAt: "2023-09-15T08:30:15Z"
+transactionID: "0.0.1034@1694766603.329723673"
+transactionState: Paid
+]
+2023-09-15T08:30:00Z
+[timestamp: "2023-09-15T08:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.03
+price: 0.0962
+id: "6504173555548242d73e60c0"
+createdAt: "2023-09-15T08:45:20Z"
+transactionID: "0.0.1034@1694767507.495626570"
+transactionState: Paid
+]
+2023-09-15T08:45:00Z
+[timestamp: "2023-09-15T08:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.102
+price: 0.0962
+id: "65041aba100d17816b1fe911"
+createdAt: "2023-09-15T09:00:15Z"
+transactionID: "0.0.1034@1694768402.509995006"
+transactionState: Paid
+]
+2023-09-15T09:00:00Z
+[timestamp: "2023-09-15T09:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.223
+price: 0.0962
+id: "65041e3ea508cc2188babeac"
+createdAt: "2023-09-15T09:15:15Z"
+transactionID: "0.0.1034@1694769302.362688868"
+transactionState: Paid
+]
+2023-09-15T09:15:00Z
+[timestamp: "2023-09-15T09:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.304
+price: 0.0962
+id: "650421c21e82350d0c02dbf4"
+createdAt: "2023-09-15T09:30:15Z"
+transactionID: "0.0.1034@1694770203.621543947"
+transactionState: Paid
+]
+2023-09-15T09:30:00Z
+[timestamp: "2023-09-15T09:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.252
+price: 0.0962
+id: "65042545a1d7346fed46e55b"
+createdAt: "2023-09-15T09:45:14Z"
+transactionID: "0.0.1034@1694771102.743053001"
+transactionState: Paid
+]
+2023-09-15T09:45:00Z
+[timestamp: "2023-09-15T09:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.186
+price: 0.0962
+id: "650428c97acc5f623860d59f"
+createdAt: "2023-09-15T10:00:14Z"
+transactionID: "0.0.1034@1694772002.046567019"
+transactionState: Paid
+]
+2023-09-15T10:00:00Z
+[timestamp: "2023-09-15T10:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.049
+price: 0.0962
+id: "65042c4ef672935a6c424946"
+createdAt: "2023-09-15T10:15:15Z"
+transactionID: "0.0.1034@1694772898.990025904"
+transactionState: Paid
+]
+2023-09-15T10:15:00Z
+[timestamp: "2023-09-15T10:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.335
+price: 0.0962
+id: "65042fd265ff0964d66d41a2"
+createdAt: "2023-09-15T10:30:15Z"
+transactionID: "0.0.1034@1694773798.775718466"
+transactionState: Paid
+]
+2023-09-15T10:30:00Z
+[timestamp: "2023-09-15T10:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.311
+price: 0.0962
+id: "650433563f93953de45df475"
+createdAt: "2023-09-15T10:45:15Z"
+transactionID: "0.0.1034@1694774700.052464906"
+transactionState: Paid
+]
+2023-09-15T10:45:00Z
+[timestamp: "2023-09-15T10:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.316
+price: 0.0962
+id: "650436daf77b8fa403246123"
+createdAt: "2023-09-15T11:00:15Z"
+transactionID: "0.0.1034@1694775601.457126274"
+transactionState: Paid
+]
+2023-09-15T11:00:00Z
+[timestamp: "2023-09-15T11:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.295
+price: 0.0962
+id: "65043a5d9a1a0c7252f09234"
+createdAt: "2023-09-15T11:15:15Z"
+transactionID: "0.0.1034@1694776499.649610975"
+transactionState: Paid
+]
+2023-09-15T11:15:00Z
+[timestamp: "2023-09-15T11:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.291
+price: 0.0962
+id: "65043de2366dfc40a449b022"
+createdAt: "2023-09-15T11:30:15Z"
+transactionID: "0.0.1034@1694777398.972938330"
+transactionState: Paid
+]
+2023-09-15T11:30:00Z
+[timestamp: "2023-09-15T11:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.32
+price: 0.0962
+id: "650441666b2cfcd7c146cbb7"
+createdAt: "2023-09-15T11:45:15Z"
+transactionID: "0.0.1034@1694778303.452633824"
+transactionState: Paid
+]
+2023-09-15T11:45:00Z
+[timestamp: "2023-09-15T11:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.314
+price: 0.0962
+id: "650444e910825449e54bbdbc"
+createdAt: "2023-09-15T12:00:16Z"
+transactionID: "0.0.1034@1694779203.737759957"
+transactionState: Paid
+]
+2023-09-15T12:00:00Z
+[timestamp: "2023-09-15T12:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.305
+price: 0.0962
+id: "6504486d125eab7ccd1c4ea3"
+createdAt: "2023-09-15T12:15:15Z"
+transactionID: "0.0.1034@1694780101.635314379"
+transactionState: Paid
+]
+2023-09-15T12:15:00Z
+[timestamp: "2023-09-15T12:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.275
+price: 0.0962
+id: "65044bf2902cadc2d40b28b3"
+createdAt: "2023-09-15T12:30:14Z"
+transactionID: "0.0.1034@1694781001.890609457"
+transactionState: Paid
+]
+2023-09-15T12:30:00Z
+[timestamp: "2023-09-15T12:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.24
+price: 0.0962
+id: "65044f76d24ccf69c3a33fe2"
+createdAt: "2023-09-15T12:45:14Z"
+transactionID: "0.0.1034@1694781901.509070325"
+transactionState: Paid
+]
+2023-09-15T12:45:00Z
+[timestamp: "2023-09-15T12:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.237
+price: 0.0962
+id: "650452fa74ead03fe4aa7a7a"
+createdAt: "2023-09-15T13:00:14Z"
+transactionID: "0.0.1034@1694782801.617685728"
+transactionState: Paid
+]
+2023-09-15T13:00:00Z
+[timestamp: "2023-09-15T13:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.247
+price: 0.0962
+id: "6504567dbf4bf050d26b287c"
+createdAt: "2023-09-15T13:15:14Z"
+transactionID: "0.0.1034@1694783702.321663469"
+transactionState: Paid
+]
+2023-09-15T13:15:00Z
+[timestamp: "2023-09-15T13:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.251
+price: 0.0962
+id: "65045a02a23330d47d375d54"
+createdAt: "2023-09-15T13:30:15Z"
+transactionID: "0.0.1034@1694784601.414294144"
+transactionState: Paid
+]
+2023-09-15T13:30:00Z
+[timestamp: "2023-09-15T13:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.261
+price: 0.0962
+id: "65045d86414db6d502d19a4d"
+createdAt: "2023-09-15T13:45:16Z"
+transactionID: "0.0.1034@1694785502.468431867"
+transactionState: Paid
+]
+2023-09-15T13:45:00Z
+[timestamp: "2023-09-15T13:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.401
+price: 0.0962
+id: "6504610ac355fc61a47cccb2"
+createdAt: "2023-09-15T14:00:15Z"
+transactionID: "0.0.1034@1694786400.475164363"
+transactionState: Paid
+]
+2023-09-15T14:00:00Z
+[timestamp: "2023-09-15T14:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.398
+price: 0.0962
+id: "6504648dfc229d532ff6600c"
+createdAt: "2023-09-15T14:15:16Z"
+transactionID: "0.0.1034@1694787302.424269369"
+transactionState: Paid
+]
+2023-09-15T14:15:00Z
+[timestamp: "2023-09-15T14:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.287
+price: 0.0962
+id: "65046811d6569f9a5f205644"
+createdAt: "2023-09-15T14:30:15Z"
+transactionID: "0.0.1034@1694788200.072443839"
+transactionState: Paid
+]
+2023-09-15T14:30:00Z
+[timestamp: "2023-09-15T14:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.298
+price: 0.0962
+id: "65046b966afdc270789017cb"
+createdAt: "2023-09-15T14:45:15Z"
+transactionID: "0.0.1034@1694789100.320389367"
+transactionState: Paid
+]
+2023-09-15T14:45:00Z
+[timestamp: "2023-09-15T14:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.233
+price: 0.0962
+id: "65046f1a11a88d747e5e98a2"
+createdAt: "2023-09-15T15:00:14Z"
+transactionID: "0.0.1034@1694789999.142940851"
+transactionState: Paid
+]
+2023-09-15T15:00:00Z
+[timestamp: "2023-09-15T15:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.304
+price: 0.0962
+id: "6504729e9db322308309dc25"
+createdAt: "2023-09-15T15:15:14Z"
+transactionID: "0.0.1034@1694790900.318966823"
+transactionState: Paid
+]
+2023-09-15T15:15:00Z
+[timestamp: "2023-09-15T15:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.062
+price: 0.0962
+id: "650476216d7622b08109e9a8"
+createdAt: "2023-09-15T15:30:15Z"
+transactionID: "0.0.1034@1694791801.711921277"
+transactionState: Paid
+]
+2023-09-15T15:30:00Z
+[timestamp: "2023-09-15T15:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.097
+price: 0.0962
+id: "650479a56335595d1b97bdb9"
+createdAt: "2023-09-15T15:45:15Z"
+transactionID: "0.0.1034@1694792701.459875783"
+transactionState: Paid
+]
+2023-09-15T15:45:00Z
+[timestamp: "2023-09-15T15:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.049
+price: 0.0962
+id: "65047d2a1cc6300c5b617f20"
+createdAt: "2023-09-15T16:00:16Z"
+transactionID: "0.0.1034@1694793600.302202671"
+transactionState: Paid
+]
+2023-09-15T16:00:00Z
+[timestamp: "2023-09-15T16:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.038
+price: 0.0962
+id: "650480aeb18322e207564108"
+createdAt: "2023-09-15T16:15:15Z"
+transactionID: "0.0.1034@1694794502.651536685"
+transactionState: Paid
+]
+2023-09-15T16:15:00Z
+[timestamp: "2023-09-15T16:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.017
+price: 0.0962
+id: "65048432cda6c89593a87195"
+createdAt: "2023-09-15T16:30:15Z"
+transactionID: "0.0.1034@1694795402.205641210"
+transactionState: Paid
+]
+2023-09-15T16:30:00Z
+[timestamp: "2023-09-15T16:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.033
+price: 0.0962
+id: "650487b54ee816d18f1aef3a"
+createdAt: "2023-09-15T16:45:15Z"
+transactionID: "0.0.1034@1694796302.569862587"
+transactionState: Paid
+]
+2023-09-15T16:45:00Z
+[timestamp: "2023-09-15T16:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.072
+price: 0.0962
+id: "65048b39404395ac22b597ed"
+createdAt: "2023-09-15T17:00:16Z"
+transactionID: "0.0.1034@1694797202.711916072"
+transactionState: Paid
+]
+2023-09-15T17:00:00Z
+[timestamp: "2023-09-15T17:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.05
+price: 0.0962
+id: "65048ebe729ac129e44d8589"
+createdAt: "2023-09-15T17:15:15Z"
+transactionID: "0.0.1034@1694798102.343537724"
+transactionState: Paid
+]
+2023-09-15T17:15:00Z
+[timestamp: "2023-09-15T17:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.032
+price: 0.0962
+id: "6504924203f144aeb85cf868"
+createdAt: "2023-09-15T17:30:15Z"
+transactionID: "0.0.1034@1694799002.290097678"
+transactionState: Paid
+]
+2023-09-15T17:30:00Z
+[timestamp: "2023-09-15T17:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.014
+price: 0.0962
+id: "650495c56306250c9eef3fc6"
+createdAt: "2023-09-15T17:45:15Z"
+transactionID: "0.0.1034@1694799903.204064673"
+transactionState: Paid
+]
+2023-09-15T17:45:00Z
+[timestamp: "2023-09-15T17:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.003
+price: 0.0962
+id: "6504994aa43a5d6f23cbd19b"
+createdAt: "2023-09-15T18:00:16Z"
+transactionID: "0.0.1034@1694800802.735795233"
+transactionState: Paid
+]
+2023-09-15T18:00:00Z
+[]
+2023-09-15T18:15:00Z
+[]
+2023-09-15T18:30:00Z
+[]
+2023-09-15T18:45:00Z
+[]
+2023-09-15T19:00:00Z
+[]
+2023-09-15T19:15:00Z
+[]
+2023-09-15T19:30:00Z
+[]
+2023-09-15T19:45:00Z
+[]
+2023-09-15T20:00:00Z
+[]
+2023-09-15T20:15:00Z
+[]
+2023-09-15T20:30:00Z
+[]
+2023-09-15T20:45:00Z
+[]
+2023-09-15T21:00:00Z
+[]
+2023-09-15T21:15:00Z
+[]
+2023-09-15T21:30:00Z
+[]
+2023-09-15T21:45:00Z
+[]
+2023-09-15T22:00:00Z
+[]
+2023-09-15T22:15:00Z
+[]
+2023-09-15T22:30:00Z
+[]
+2023-09-15T22:45:00Z
+[]
+2023-09-15T23:00:00Z
+[]
+2023-09-15T23:15:00Z
+[]
+2023-09-15T23:30:00Z
+[]
+2023-09-15T23:45:00Z
+[]
+2023-09-16T00:00:00Z
+[]
+2023-09-16T00:15:00Z
+[]
+2023-09-16T00:30:00Z
+[]
+2023-09-16T00:45:00Z
+[]
+2023-09-16T01:00:00Z
+[]
+2023-09-16T01:15:00Z
+[]
+2023-09-16T01:30:00Z
+[]
+2023-09-16T01:45:00Z
+[]
+2023-09-16T02:00:00Z
+[]
+2023-09-16T02:15:00Z
+[]
+2023-09-16T02:30:00Z
+[]
+2023-09-16T02:45:00Z
+[]
+2023-09-16T03:00:00Z
+[]
+2023-09-16T03:15:00Z
+[]
+2023-09-16T03:30:00Z
+[]
+2023-09-16T03:45:00Z
+[]
+2023-09-16T04:00:00Z
+[]
+2023-09-16T04:15:00Z
+[]
+2023-09-16T04:30:00Z
+[]
+2023-09-16T04:45:00Z
+[]
+2023-09-16T05:00:00Z
+[]
+2023-09-16T05:15:00Z
+[]
+2023-09-16T05:30:00Z
+[]
+2023-09-16T05:45:00Z
+[]
+2023-09-16T06:00:00Z
+[]
+2023-09-16T06:15:00Z
+[]
+2023-09-16T06:30:00Z
+[]
+2023-09-16T06:45:00Z
+[]
+2023-09-16T07:00:00Z
+[]
+2023-09-16T07:15:00Z
+[]
+2023-09-16T07:30:00Z
+[]
+2023-09-16T07:45:00Z
+[]
+2023-09-16T08:00:00Z
+[timestamp: "2023-09-16T08:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.015
+price: 0.0962
+id: "650561aee733d83fe2f821fb"
+createdAt: "2023-09-16T08:15:15Z"
+transactionID: "0.0.1034@1694852099.547822266"
+transactionState: Paid
+]
+2023-09-16T08:15:00Z
+[timestamp: "2023-09-16T08:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.006
+price: 0.0962
+id: "65056532d8357d613f5f26cb"
+createdAt: "2023-09-16T08:30:15Z"
+transactionID: "0.0.1034@1694852998.574374074"
+transactionState: Paid
+]
+2023-09-16T08:30:00Z
+[]
+2023-09-16T08:45:00Z
+[timestamp: "2023-09-16T08:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.061
+price: 0.0962
+id: "65056c3ab6e1428e9f8b95a9"
+createdAt: "2023-09-16T09:15:15Z"
+transactionID: "0.0.1034@1694854802.456714772"
+transactionState: Paid
+]
+2023-09-16T09:00:00Z
+[timestamp: "2023-09-16T09:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.132
+price: 0.0962
+id: "65056fbdfc019372ba54a80b"
+createdAt: "2023-09-16T09:15:15Z"
+transactionID: "0.0.1034@1694855699.264312232"
+transactionState: Paid
+]
+2023-09-16T09:15:00Z
+[timestamp: "2023-09-16T09:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.044
+price: 0.0962
+id: "65057342708cf23984e61b19"
+createdAt: "2023-09-16T09:30:15Z"
+transactionID: "0.0.1034@1694856598.232051927"
+transactionState: Paid
+]
+2023-09-16T09:30:00Z
+[]
+2023-09-16T09:45:00Z
+[]
+2023-09-16T10:00:00Z
+[]
+2023-09-16T10:15:00Z
+[]
+2023-09-16T10:30:00Z
+[timestamp: "2023-09-16T10:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.053
+price: 0.0962
+id: "650584d6e7159942eb18bb70"
+createdAt: "2023-09-16T10:45:16Z"
+transactionID: "0.0.1034@1694861103.146056945"
+transactionState: Paid
+]
+2023-09-16T10:45:00Z
+[timestamp: "2023-09-16T10:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.025
+price: 0.0962
+id: "650588594a054932f7496685"
+createdAt: "2023-09-16T11:00:15Z"
+transactionID: "0.0.1034@1694862001.931462606"
+transactionState: Paid
+]
+2023-09-16T11:00:00Z
+[timestamp: "2023-09-16T11:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.162
+price: 0.0962
+id: "65058bdedf36d258485e17f8"
+createdAt: "2023-09-16T11:15:16Z"
+transactionID: "0.0.1034@1694862903.502848245"
+transactionState: Paid
+]
+2023-09-16T11:15:00Z
+[timestamp: "2023-09-16T11:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.027
+price: 0.0962
+id: "65058f627aaeb30413d610c0"
+createdAt: "2023-09-16T11:30:16Z"
+transactionID: "0.0.1034@1694863803.464448156"
+transactionState: Paid
+]
+2023-09-16T11:30:00Z
+[timestamp: "2023-09-16T11:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.037
+price: 0.0962
+id: "650592e6083626bc4f23fa86"
+createdAt: "2023-09-16T11:45:15Z"
+transactionID: "0.0.1034@1694864699.873478673"
+transactionState: Paid
+]
+2023-09-16T11:45:00Z
+[timestamp: "2023-09-16T11:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.041
+price: 0.0962
+id: "6505966945f84c3a1a20d645"
+createdAt: "2023-09-16T12:00:15Z"
+transactionID: "0.0.1034@1694865602.730975983"
+transactionState: Paid
+]
+2023-09-16T12:00:00Z
+[]
+2023-09-16T12:15:00Z
+[]
+2023-09-16T12:30:00Z
+[]
+2023-09-16T12:45:00Z
+[timestamp: "2023-09-16T12:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.026
+price: 0.0962
+id: "6505a47922cccf738354cad3"
+createdAt: "2023-09-16T13:00:16Z"
+transactionID: "0.0.1034@1694869203.436056222"
+transactionState: Paid
+]
+2023-09-16T13:00:00Z
+[]
+2023-09-16T13:15:00Z
+[]
+2023-09-16T13:30:00Z
+[]
+2023-09-16T13:45:00Z
+[]
+2023-09-16T14:00:00Z
+[]
+2023-09-16T14:15:00Z
+[]
+2023-09-16T14:30:00Z
+[]
+2023-09-16T14:45:00Z
+[]
+2023-09-16T15:00:00Z
+[]
+2023-09-16T15:15:00Z
+[]
+2023-09-16T15:30:00Z
+[]
+2023-09-16T15:45:00Z
+[]
+2023-09-16T16:00:00Z
+[]
+2023-09-16T16:15:00Z
+[]
+2023-09-16T16:30:00Z
+[]
+2023-09-16T16:45:00Z
+[]
+2023-09-16T17:00:00Z
+[]
+2023-09-16T17:15:00Z
+[]
+2023-09-16T17:30:00Z
+[]
+2023-09-16T17:45:00Z
+[]
+2023-09-16T18:00:00Z
+[]
+2023-09-16T18:15:00Z
+[]
+2023-09-16T18:30:00Z
+[]
+2023-09-16T18:45:00Z
+[]
+2023-09-16T19:00:00Z
+[]
+2023-09-16T19:15:00Z
+[]
+2023-09-16T19:30:00Z
+[]
+2023-09-16T19:45:00Z
+[]
+2023-09-16T20:00:00Z
+[]
+2023-09-16T20:15:00Z
+[]
+2023-09-16T20:30:00Z
+[]
+2023-09-16T20:45:00Z
+[]
+2023-09-16T21:00:00Z
+[]
+2023-09-16T21:15:00Z
+[]
+2023-09-16T21:30:00Z
+[]
+2023-09-16T21:45:00Z
+[]
+2023-09-16T22:00:00Z
+[]
+2023-09-16T22:15:00Z
+[]
+2023-09-16T22:30:00Z
+[]
+2023-09-16T22:45:00Z
+[]
+2023-09-16T23:00:00Z
+[]
+2023-09-16T23:15:00Z
+[]
+2023-09-16T23:30:00Z
+[]
+2023-09-16T23:45:00Z
+[]
+2023-09-17T00:00:00Z
+[]
+2023-09-17T00:15:00Z
+[]
+2023-09-17T00:30:00Z
+[]
+2023-09-17T00:45:00Z
+[]
+2023-09-17T01:00:00Z
+[]
+2023-09-17T01:15:00Z
+[]
+2023-09-17T01:30:00Z
+[]
+2023-09-17T01:45:00Z
+[]
+2023-09-17T02:00:00Z
+[]
+2023-09-17T02:15:00Z
+[]
+2023-09-17T02:30:00Z
+[]
+2023-09-17T02:45:00Z
+[]
+2023-09-17T03:00:00Z
+[]
+2023-09-17T03:15:00Z
+[]
+2023-09-17T03:30:00Z
+[]
+2023-09-17T03:45:00Z
+[]
+2023-09-17T04:00:00Z
+[]
+2023-09-17T04:15:00Z
+[]
+2023-09-17T04:30:00Z
+[]
+2023-09-17T04:45:00Z
+[]
+2023-09-17T05:00:00Z
+[]
+2023-09-17T05:15:00Z
+[]
+2023-09-17T05:30:00Z
+[]
+2023-09-17T05:45:00Z
+[]
+2023-09-17T06:00:00Z
+[]
+2023-09-17T06:15:00Z
+[]
+2023-09-17T06:30:00Z
+[]
+2023-09-17T06:45:00Z
+[]
+2023-09-17T07:00:00Z
+[]
+2023-09-17T07:15:00Z
+[]
+2023-09-17T07:30:00Z
+[]
+2023-09-17T07:45:00Z
+[]
+2023-09-17T08:00:00Z
+[]
+2023-09-17T08:15:00Z
+[]
+2023-09-17T08:30:00Z
+[timestamp: "2023-09-17T08:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.022
+price: 0.0962
+id: "6506ba355125941271f830d8"
+createdAt: "2023-09-17T08:45:15Z"
+transactionID: "0.0.1034@1694940302.259004136"
+transactionState: Paid
+]
+2023-09-17T08:45:00Z
+[]
+2023-09-17T09:00:00Z
+[]
+2023-09-17T09:15:00Z
+[timestamp: "2023-09-17T09:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.024
+price: 0.0962
+id: "6506c4c12ee9acc252bf84c1"
+createdAt: "2023-09-17T09:30:15Z"
+transactionID: "0.0.1034@1694943000.075426080"
+transactionState: Paid
+]
+2023-09-17T09:30:00Z
+[timestamp: "2023-09-17T09:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.008
+price: 0.0962
+id: "6506c846c0b901a10b7d3511"
+createdAt: "2023-09-17T09:45:15Z"
+transactionID: "0.0.1034@1694943901.086962107"
+transactionState: Paid
+]
+2023-09-17T09:45:00Z
+[timestamp: "2023-09-17T09:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.033
+price: 0.0962
+id: "6506cbca91c220619c5211a5"
+createdAt: "2023-09-17T10:00:15Z"
+transactionID: "0.0.1034@1694944801.305294116"
+transactionState: Paid
+]
+2023-09-17T10:00:00Z
+[timestamp: "2023-09-17T10:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.041
+price: 0.0962
+id: "6506cf4e1258ec8ade66ac0d"
+createdAt: "2023-09-17T10:15:15Z"
+transactionID: "0.0.1034@1694945700.266226014"
+transactionState: Paid
+]
+2023-09-17T10:15:00Z
+[]
+2023-09-17T10:30:00Z
+[]
+2023-09-17T10:45:00Z
+[]
+2023-09-17T11:00:00Z
+[]
+2023-09-17T11:15:00Z
+[]
+2023-09-17T11:30:00Z
+[]
+2023-09-17T11:45:00Z
+[]
+2023-09-17T12:00:00Z
+[timestamp: "2023-09-17T12:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.031
+price: 0.0962
+id: "6506eb6d3beaf8597d849ce6"
+createdAt: "2023-09-17T12:15:17Z"
+transactionID: "0.0.1034@1694952902.963460217"
+transactionState: Paid
+]
+2023-09-17T12:15:00Z
+[timestamp: "2023-09-17T12:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.027
+price: 0.0962
+id: "6506eef25d45775c55f46a7d"
+createdAt: "2023-09-17T12:30:14Z"
+transactionID: "0.0.1034@1694953798.147114976"
+transactionState: Paid
+]
+2023-09-17T12:30:00Z
+[timestamp: "2023-09-17T12:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.026
+price: 0.0962
+id: "6506f276ff5d2d8c7b2b22a4"
+createdAt: "2023-09-17T12:45:14Z"
+transactionID: "0.0.1034@1694954702.426404976"
+transactionState: Paid
+]
+2023-09-17T12:45:00Z
+[timestamp: "2023-09-17T12:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.028
+price: 0.0962
+id: "6506f5faf3e24637cc8d4250"
+createdAt: "2023-09-17T13:00:14Z"
+transactionID: "0.0.1034@1694955602.699785091"
+transactionState: Paid
+]
+2023-09-17T13:00:00Z
+[timestamp: "2023-09-17T13:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.041
+price: 0.0962
+id: "6506f97d72fc2a03abb6033b"
+createdAt: "2023-09-17T13:15:14Z"
+transactionID: "0.0.1034@1694956502.810551902"
+transactionState: Paid
+]
+2023-09-17T13:15:00Z
+[timestamp: "2023-09-17T13:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.041
+price: 0.0962
+id: "6506fd023172c911ec342fec"
+createdAt: "2023-09-17T13:30:15Z"
+transactionID: "0.0.1034@1694957399.038596048"
+transactionState: Paid
+]
+2023-09-17T13:30:00Z
+[timestamp: "2023-09-17T13:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.035
+price: 0.0962
+id: "6507008644e67d859a373457"
+createdAt: "2023-09-17T13:45:14Z"
+transactionID: "0.0.1034@1694958302.183174603"
+transactionState: Paid
+]
+2023-09-17T13:45:00Z
+[timestamp: "2023-09-17T13:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.026
+price: 0.0962
+id: "6507040af8c07e183595a1a9"
+createdAt: "2023-09-17T14:00:14Z"
+transactionID: "0.0.1034@1694959201.301928907"
+transactionState: Paid
+]
+2023-09-17T14:00:00Z
+[timestamp: "2023-09-17T14:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.026
+price: 0.0962
+id: "6507078d32240c901247e580"
+createdAt: "2023-09-17T14:15:15Z"
+transactionID: "0.0.1034@1694960098.867271212"
+transactionState: Paid
+]
+2023-09-17T14:15:00Z
+[timestamp: "2023-09-17T14:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.027
+price: 0.0962
+id: "65070b1278c8978a11e80847"
+createdAt: "2023-09-17T14:30:15Z"
+transactionID: "0.0.1034@1694961001.574551565"
+transactionState: Paid
+]
+2023-09-17T14:30:00Z
+[]
+2023-09-17T14:45:00Z
+[]
+2023-09-17T15:00:00Z
+[]
+2023-09-17T15:15:00Z
+[]
+2023-09-17T15:30:00Z
+[]
+2023-09-17T15:45:00Z
+[]
+2023-09-17T16:00:00Z
+[]
+2023-09-17T16:15:00Z
+[]
+2023-09-17T16:30:00Z
+[]
+2023-09-17T16:45:00Z
+[timestamp: "2023-09-17T16:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.037
+price: 0.0962
+id: "65072e3a9562a484849d1d7f"
+createdAt: "2023-09-17T17:00:14Z"
+transactionID: "0.0.1034@1694969999.257209572"
+transactionState: Paid
+]
+2023-09-17T17:00:00Z
+[timestamp: "2023-09-17T17:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.026
+price: 0.0962
+id: "650731bd79ca6d71da73af11"
+createdAt: "2023-09-17T17:15:15Z"
+transactionID: "0.0.1034@1694970898.927669265"
+transactionState: Paid
+]
+2023-09-17T17:15:00Z
+[timestamp: "2023-09-17T17:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.015
+price: 0.0962
+id: "6507354291e10130a9a47a88"
+createdAt: "2023-09-17T17:30:15Z"
+transactionID: "0.0.1034@1694971799.468182543"
+transactionState: Paid
+]
+2023-09-17T17:30:00Z
+[timestamp: "2023-09-17T17:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.001
+price: 0.0962
+id: "650738c6504fb5ba7c4f053d"
+createdAt: "2023-09-17T17:45:15Z"
+transactionID: "0.0.1034@1694972702.796744977"
+transactionState: Paid
+]
+2023-09-17T17:45:00Z
+[]
+2023-09-17T18:00:00Z
+[]
+2023-09-17T18:15:00Z
+[]
+2023-09-17T18:30:00Z
+[]
+2023-09-17T18:45:00Z
+[]
+2023-09-17T19:00:00Z
+[]
+2023-09-17T19:15:00Z
+[]
+2023-09-17T19:30:00Z
+[]
+2023-09-17T19:45:00Z
+[]
+2023-09-17T20:00:00Z
+[]
+2023-09-17T20:15:00Z
+[]
+2023-09-17T20:30:00Z
+[]
+2023-09-17T20:45:00Z
+[]
+2023-09-17T21:00:00Z
+[]
+2023-09-17T21:15:00Z
+[]
+2023-09-17T21:30:00Z
+[]
+2023-09-17T21:45:00Z
+[]
+2023-09-17T22:00:00Z
+[]
+2023-09-17T22:15:00Z
+[]
+2023-09-17T22:30:00Z
+[]
+2023-09-17T22:45:00Z
+[]
+2023-09-17T23:00:00Z
+[]
+2023-09-17T23:15:00Z
+[]
+2023-09-17T23:30:00Z
+[]
+2023-09-17T23:45:00Z
+[]
+2023-09-18T00:00:00Z
+[]
+2023-09-18T00:15:00Z
+[]
+2023-09-18T00:30:00Z
+[]
+2023-09-18T00:45:00Z
+[]
+2023-09-18T01:00:00Z
+[]
+2023-09-18T01:15:00Z
+[]
+2023-09-18T01:30:00Z
+[]
+2023-09-18T01:45:00Z
+[]
+2023-09-18T02:00:00Z
+[]
+2023-09-18T02:15:00Z
+[]
+2023-09-18T02:30:00Z
+[]
+2023-09-18T02:45:00Z
+[]
+2023-09-18T03:00:00Z
+[]
+2023-09-18T03:15:00Z
+[]
+2023-09-18T03:30:00Z
+[]
+2023-09-18T03:45:00Z
+[]
+2023-09-18T04:00:00Z
+[]
+2023-09-18T04:15:00Z
+[]
+2023-09-18T04:30:00Z
+[]
+2023-09-18T04:45:00Z
+[]
+2023-09-18T05:00:00Z
+[]
+2023-09-18T05:15:00Z
+[]
+2023-09-18T05:30:00Z
+[]
+2023-09-18T05:45:00Z
+[]
+2023-09-18T06:00:00Z
+[]
+2023-09-18T06:15:00Z
+[]
+2023-09-18T06:30:00Z
+[]
+2023-09-18T06:45:00Z
+[]
+2023-09-18T07:00:00Z
+[]
+2023-09-18T07:15:00Z
+[]
+2023-09-18T07:30:00Z
+[timestamp: "2023-09-18T07:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.002
+price: 0.0962
+id: "6507fda6fbc7b4d6e5f6fac6"
+createdAt: "2023-09-18T07:45:14Z"
+transactionID: "0.0.1034@1695023099.917869508"
+transactionState: Paid
+]
+2023-09-18T07:45:00Z
+[]
+2023-09-18T08:00:00Z
+[]
+2023-09-18T08:15:00Z
+[timestamp: "2023-09-18T08:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.024
+price: 0.0962
+id: "650808322af0af242d88c672"
+createdAt: "2023-09-18T08:30:14Z"
+transactionID: "0.0.1034@1695025802.808269655"
+transactionState: Paid
+]
+2023-09-18T08:30:00Z
+[timestamp: "2023-09-18T08:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.026
+price: 0.0962
+id: "65080bb67494747efcab6279"
+createdAt: "2023-09-18T08:45:14Z"
+transactionID: "0.0.1034@1695026698.562225817"
+transactionState: Paid
+]
+2023-09-18T08:45:00Z
+[timestamp: "2023-09-18T08:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.026
+price: 0.0962
+id: "65080f3a062c954777a1f348"
+createdAt: "2023-09-18T09:00:15Z"
+transactionID: "0.0.1034@1695027598.495927901"
+transactionState: Paid
+]
+2023-09-18T09:00:00Z
+[timestamp: "2023-09-18T09:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.149
+price: 0.0962
+id: "650812beb1c9647e13fd04c4"
+createdAt: "2023-09-18T09:15:14Z"
+transactionID: "0.0.1034@1695028500.201386978"
+transactionState: Paid
+]
+2023-09-18T09:15:00Z
+[timestamp: "2023-09-18T09:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.268
+price: 0.0962
+id: "65081642a4de8abf759a4438"
+createdAt: "2023-09-18T09:30:16Z"
+transactionID: "0.0.1034@1695029404.197662572"
+transactionState: Paid
+]
+2023-09-18T09:30:00Z
+[timestamp: "2023-09-18T09:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.255
+price: 0.0962
+id: "650819c6470036bba68753b5"
+createdAt: "2023-09-18T09:45:15Z"
+transactionID: "0.0.1034@1695030300.184382642"
+transactionState: Paid
+]
+2023-09-18T09:45:00Z
+[timestamp: "2023-09-18T09:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.248
+price: 0.0962
+id: "65081d4a4b413218022b1ab7"
+createdAt: "2023-09-18T10:00:17Z"
+transactionID: "0.0.1034@1695031205.242174096"
+transactionState: Paid
+]
+2023-09-18T10:00:00Z
+[timestamp: "2023-09-18T10:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.271
+price: 0.0962
+id: "650820cd842c9b31226c6120"
+createdAt: "2023-09-18T10:15:15Z"
+transactionID: "0.0.1034@1695032100.835472246"
+transactionState: Paid
+]
+2023-09-18T10:15:00Z
+[timestamp: "2023-09-18T10:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.186
+price: 0.0962
+id: "65082452668ca0f232edf8dd"
+createdAt: "2023-09-18T10:30:14Z"
+transactionID: "0.0.1034@1695033002.276139303"
+transactionState: Paid
+]
+2023-09-18T10:30:00Z
+[timestamp: "2023-09-18T10:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.102
+price: 0.0962
+id: "650827d66ff98b2375dfe19e"
+createdAt: "2023-09-18T10:45:14Z"
+transactionID: "0.0.1034@1695033900.943300510"
+transactionState: Paid
+]
+2023-09-18T10:45:00Z
+[timestamp: "2023-09-18T10:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.06
+price: 0.0962
+id: "65082b5a0b1d17c553fa3f2e"
+createdAt: "2023-09-18T11:00:16Z"
+transactionID: "0.0.1034@1695034801.747898557"
+transactionState: Paid
+]
+2023-09-18T11:00:00Z
+[timestamp: "2023-09-18T11:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.057
+price: 0.0962
+id: "65082ede495dd8a981edaebc"
+createdAt: "2023-09-18T11:15:15Z"
+transactionID: "0.0.1034@1695035703.034133954"
+transactionState: Paid
+]
+2023-09-18T11:15:00Z
+[timestamp: "2023-09-18T11:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.114
+price: 0.0962
+id: "650832625781fac80db8b334"
+createdAt: "2023-09-18T11:30:15Z"
+transactionID: "0.0.1034@1695036601.650291011"
+transactionState: Paid
+]
+2023-09-18T11:30:00Z
+[timestamp: "2023-09-18T11:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.179
+price: 0.0962
+id: "650835e681e2f00c37aacad7"
+createdAt: "2023-09-18T11:45:15Z"
+transactionID: "0.0.1034@1695037501.832153278"
+transactionState: Paid
+]
+2023-09-18T11:45:00Z
+[timestamp: "2023-09-18T11:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.09
+price: 0.0962
+id: "6508396a5a1fb26937a6b8f6"
+createdAt: "2023-09-18T12:00:15Z"
+transactionID: "0.0.1034@1695038399.442188600"
+transactionState: Paid
+]
+2023-09-18T12:00:00Z
+[]
+2023-09-18T12:15:00Z
+[]
+2023-09-18T12:30:00Z
+[]
+2023-09-18T12:45:00Z
+[]
+2023-09-18T13:00:00Z
+[]
+2023-09-18T13:15:00Z
+[timestamp: "2023-09-18T13:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.011
+price: 0.0962
+id: "65084e81ab49b1fcadb4117c"
+createdAt: "2023-09-18T13:30:17Z"
+transactionID: "0.0.1034@1695043800.779495102"
+transactionState: Paid
+]
+2023-09-18T13:30:00Z
+[timestamp: "2023-09-18T13:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.195
+price: 0.0962
+id: "65085206339a52d09ef4526d"
+createdAt: "2023-09-18T13:45:15Z"
+transactionID: "0.0.1034@1695044702.469346475"
+transactionState: Paid
+]
+2023-09-18T13:45:00Z
+[timestamp: "2023-09-18T13:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.274
+price: 0.0962
+id: "6508558a34fc7d556cc8ae6c"
+createdAt: "2023-09-18T14:00:15Z"
+transactionID: "0.0.1034@1695045602.959057917"
+transactionState: Paid
+]
+2023-09-18T14:00:00Z
+[timestamp: "2023-09-18T14:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.306
+price: 0.0962
+id: "6508590e162b77000ba4e9d4"
+createdAt: "2023-09-18T14:15:15Z"
+transactionID: "0.0.1034@1695046502.262309078"
+transactionState: Paid
+]
+2023-09-18T14:15:00Z
+[timestamp: "2023-09-18T14:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.296
+price: 0.0962
+id: "65085c920daffa15f1672b8e"
+createdAt: "2023-09-18T14:30:15Z"
+transactionID: "0.0.1034@1695047399.045271272"
+transactionState: Paid
+]
+2023-09-18T14:30:00Z
+[timestamp: "2023-09-18T14:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.105
+price: 0.0962
+id: "650860157dd2de900a95cd06"
+createdAt: "2023-09-18T14:45:15Z"
+transactionID: "0.0.1034@1695048302.294180585"
+transactionState: Paid
+]
+2023-09-18T14:45:00Z
+[timestamp: "2023-09-18T14:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.052
+price: 0.0962
+id: "6508639ae2ab6893d86fef0b"
+createdAt: "2023-09-18T15:00:15Z"
+transactionID: "0.0.1034@1695049202.957770047"
+transactionState: Paid
+]
+2023-09-18T15:00:00Z
+[timestamp: "2023-09-18T15:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.088
+price: 0.0962
+id: "6508671e247490858d7a8c35"
+createdAt: "2023-09-18T15:15:15Z"
+transactionID: "0.0.1034@1695050101.499100398"
+transactionState: Paid
+]
+2023-09-18T15:15:00Z
+[]
+2023-09-18T15:30:00Z
+[]
+2023-09-18T15:45:00Z
+[]
+2023-09-18T16:00:00Z
+[]
+2023-09-18T16:15:00Z
+[]
+2023-09-18T16:30:00Z
+[]
+2023-09-18T16:45:00Z
+[]
+2023-09-18T17:00:00Z
+[]
+2023-09-18T17:15:00Z
+[]
+2023-09-18T17:30:00Z
+[]
+2023-09-18T17:45:00Z
+[]
+2023-09-18T18:00:00Z
+[]
+2023-09-18T18:15:00Z
+[]
+2023-09-18T18:30:00Z
+[]
+2023-09-18T18:45:00Z
+[]
+2023-09-18T19:00:00Z
+[]
+2023-09-18T19:15:00Z
+[]
+2023-09-18T19:30:00Z
+[]
+2023-09-18T19:45:00Z
+[]
+2023-09-18T20:00:00Z
+[]
+2023-09-18T20:15:00Z
+[]
+2023-09-18T20:30:00Z
+[]
+2023-09-18T20:45:00Z
+[]
+2023-09-18T21:00:00Z
+[]
+2023-09-18T21:15:00Z
+[]
+2023-09-18T21:30:00Z
+[]
+2023-09-18T21:45:00Z
+[]
+2023-09-18T22:00:00Z
+[]
+2023-09-18T22:15:00Z
+[]
+2023-09-18T22:30:00Z
+[]
+2023-09-18T22:45:00Z
+[]
+2023-09-18T23:00:00Z
+[]
+2023-09-18T23:15:00Z
+[]
+2023-09-18T23:30:00Z
+[]
+2023-09-18T23:45:00Z
+[]
+2023-09-19T00:00:00Z
+[]
+2023-09-19T00:15:00Z
+[]
+2023-09-19T00:30:00Z
+[]
+2023-09-19T00:45:00Z
+[]
+2023-09-19T01:00:00Z
+[]
+2023-09-19T01:15:00Z
+[]
+2023-09-19T01:30:00Z
+[]
+2023-09-19T01:45:00Z
+[]
+2023-09-19T02:00:00Z
+[]
+2023-09-19T02:15:00Z
+[]
+2023-09-19T02:30:00Z
+[]
+2023-09-19T02:45:00Z
+[]
+2023-09-19T03:00:00Z
+[]
+2023-09-19T03:15:00Z
+[]
+2023-09-19T03:30:00Z
+[]
+2023-09-19T03:45:00Z
+[]
+2023-09-19T04:00:00Z
+[]
+2023-09-19T04:15:00Z
+[]
+2023-09-19T04:30:00Z
+[]
+2023-09-19T04:45:00Z
+[]
+2023-09-19T05:00:00Z
+[]
+2023-09-19T05:15:00Z
+[]
+2023-09-19T05:30:00Z
+[]
+2023-09-19T05:45:00Z
+[]
+2023-09-19T06:00:00Z
+[]
+2023-09-19T06:15:00Z
+[]
+2023-09-19T06:30:00Z
+[]
+2023-09-19T06:45:00Z
+[]
+2023-09-19T07:00:00Z
+[]
+2023-09-19T07:15:00Z
+[]
+2023-09-19T07:30:00Z
+[]
+2023-09-19T07:45:00Z
+[timestamp: "2023-09-19T07:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.014
+price: 0.0962
+id: "650952aac600d92dc2b9128f"
+createdAt: "2023-09-19T08:00:15Z"
+transactionID: "0.0.1034@1695110398.134105704"
+transactionState: Paid
+]
+2023-09-19T08:00:00Z
+[timestamp: "2023-09-19T08:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.029
+price: 0.0962
+id: "6509562edc2fd4b8034aabe7"
+createdAt: "2023-09-19T08:15:15Z"
+transactionID: "0.0.1034@1695111298.369507012"
+transactionState: Paid
+]
+2023-09-19T08:15:00Z
+[]
+2023-09-19T08:30:00Z
+[timestamp: "2023-09-19T08:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.04
+price: 0.0962
+id: "65095d36c4363e31e0d1df2d"
+createdAt: "2023-09-19T09:00:15Z"
+transactionID: "0.0.1034@1695113098.803745570"
+transactionState: Paid
+]
+2023-09-19T08:45:00Z
+[timestamp: "2023-09-19T08:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.064
+price: 0.0962
+id: "650960b9875a90dc76351a3e"
+createdAt: "2023-09-19T09:00:15Z"
+transactionID: "0.0.1034@1695114003.022585660"
+transactionState: Paid
+]
+2023-09-19T09:00:00Z
+[timestamp: "2023-09-19T09:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.106
+price: 0.0962
+id: "6509643e3473bf687c55f801"
+createdAt: "2023-09-19T09:15:15Z"
+transactionID: "0.0.1034@1695114902.683475535"
+transactionState: Paid
+]
+2023-09-19T09:15:00Z
+[timestamp: "2023-09-19T09:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.053
+price: 0.0962
+id: "650967c299a913392a993e3d"
+createdAt: "2023-09-19T09:30:15Z"
+transactionID: "0.0.1034@1695115803.493432657"
+transactionState: Paid
+]
+2023-09-19T09:30:00Z
+[timestamp: "2023-09-19T09:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.275
+price: 0.0962
+id: "65096b461d8578b12c8eabbd"
+createdAt: "2023-09-19T09:45:14Z"
+transactionID: "0.0.1034@1695116699.145159659"
+transactionState: Paid
+]
+2023-09-19T09:45:00Z
+[timestamp: "2023-09-19T09:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.298
+price: 0.0962
+id: "65096ecae15b1109fc5f9de0"
+createdAt: "2023-09-19T10:00:15Z"
+transactionID: "0.0.1034@1695117600.222185803"
+transactionState: Paid
+]
+2023-09-19T10:00:00Z
+[timestamp: "2023-09-19T10:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.299
+price: 0.0962
+id: "6509724e4bbb46460006715e"
+createdAt: "2023-09-19T10:15:15Z"
+transactionID: "0.0.1034@1695118500.913678743"
+transactionState: Paid
+]
+2023-09-19T10:15:00Z
+[timestamp: "2023-09-19T10:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.306
+price: 0.0962
+id: "650975d2e2f8e18ed8a190c6"
+createdAt: "2023-09-19T10:30:15Z"
+transactionID: "0.0.1034@1695119403.300529609"
+transactionState: Paid
+]
+2023-09-19T10:30:00Z
+[timestamp: "2023-09-19T10:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.307
+price: 0.0962
+id: "650979563236a661a092670b"
+createdAt: "2023-09-19T10:45:15Z"
+transactionID: "0.0.1034@1695120302.609697180"
+transactionState: Paid
+]
+2023-09-19T10:45:00Z
+[timestamp: "2023-09-19T10:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.312
+price: 0.0962
+id: "65097cda14dcb6fc9341d987"
+createdAt: "2023-09-19T11:00:17Z"
+transactionID: "0.0.1034@1695121203.266412706"
+transactionState: Paid
+]
+2023-09-19T11:00:00Z
+[timestamp: "2023-09-19T11:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.013
+price: 0.0962
+id: "6509805e0037305312a91a1d"
+createdAt: "2023-09-19T11:15:15Z"
+transactionID: "0.0.1034@1695122102.429640395"
+transactionState: Paid
+]
+2023-09-19T11:15:00Z
+[timestamp: "2023-09-19T11:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.317
+price: 0.0962
+id: "650983e26a80d5b4fee00b93"
+createdAt: "2023-09-19T11:30:15Z"
+transactionID: "0.0.1034@1695123001.432239422"
+transactionState: Paid
+]
+2023-09-19T11:30:00Z
+[timestamp: "2023-09-19T11:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.306
+price: 0.0962
+id: "6509876645b2f9631ce8eeb8"
+createdAt: "2023-09-19T11:45:16Z"
+transactionID: "0.0.1034@1695123903.394994355"
+transactionState: Paid
+]
+2023-09-19T11:45:00Z
+[timestamp: "2023-09-19T11:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.309
+price: 0.0962
+id: "65098aeaeab60a9066bf8c0e"
+createdAt: "2023-09-19T12:00:15Z"
+transactionID: "0.0.1034@1695124800.741258440"
+transactionState: Paid
+]
+2023-09-19T12:00:00Z
+[timestamp: "2023-09-19T12:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.261
+price: 0.0962
+id: "65098e6e3d02b69a9934a3e9"
+createdAt: "2023-09-19T12:15:14Z"
+transactionID: "0.0.1034@1695125702.201734246"
+transactionState: Paid
+]
+2023-09-19T12:15:00Z
+[timestamp: "2023-09-19T12:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.168
+price: 0.0962
+id: "650991f2d40b9c6b43d39614"
+createdAt: "2023-09-19T12:30:15Z"
+transactionID: "0.0.1034@1695126598.876135595"
+transactionState: Paid
+]
+2023-09-19T12:30:00Z
+[]
+2023-09-19T12:45:00Z
+[]
+2023-09-19T13:00:00Z
+[]
+2023-09-19T13:15:00Z
+[timestamp: "2023-09-19T13:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.193
+price: 0.0962
+id: "6509a002dae0d35c11ddd7ef"
+createdAt: "2023-09-19T13:30:15Z"
+transactionID: "0.0.1034@1695130201.339192924"
+transactionState: Paid
+]
+2023-09-19T13:30:00Z
+[timestamp: "2023-09-19T13:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.228
+price: 0.0962
+id: "6509a386e2b9df210102db03"
+createdAt: "2023-09-19T13:45:15Z"
+transactionID: "0.0.1034@1695131102.801547871"
+transactionState: Paid
+]
+2023-09-19T13:45:00Z
+[timestamp: "2023-09-19T13:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.285
+price: 0.0962
+id: "6509a70a51c723d3306b5319"
+createdAt: "2023-09-19T14:00:15Z"
+transactionID: "0.0.1034@1695131999.167777176"
+transactionState: Paid
+]
+2023-09-19T14:00:00Z
+[timestamp: "2023-09-19T14:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.268
+price: 0.0962
+id: "6509aa8d6c299dc2fe543346"
+createdAt: "2023-09-19T14:15:15Z"
+transactionID: "0.0.1034@1695132898.568921453"
+transactionState: Paid
+]
+2023-09-19T14:15:00Z
+[timestamp: "2023-09-19T14:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.233
+price: 0.0962
+id: "6509ae1284689e002a4be4e6"
+createdAt: "2023-09-19T14:30:15Z"
+transactionID: "0.0.1034@1695133798.873545164"
+transactionState: Paid
+]
+2023-09-19T14:30:00Z
+[timestamp: "2023-09-19T14:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.254
+price: 0.0962
+id: "6509b196bfdbae1e992ad95a"
+createdAt: "2023-09-19T14:45:15Z"
+transactionID: "0.0.1034@1695134701.621467864"
+transactionState: Paid
+]
+2023-09-19T14:45:00Z
+[timestamp: "2023-09-19T14:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.291
+price: 0.0962
+id: "6509b51a1f7b841ef90e0906"
+createdAt: "2023-09-19T15:00:14Z"
+transactionID: "0.0.1034@1695135602.136652067"
+transactionState: Paid
+]
+2023-09-19T15:00:00Z
+[timestamp: "2023-09-19T15:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.244
+price: 0.0962
+id: "6509b89ec6fa9759427a91e6"
+createdAt: "2023-09-19T15:15:14Z"
+transactionID: "0.0.1034@1695136499.651265525"
+transactionState: Paid
+]
+2023-09-19T15:15:00Z
+[timestamp: "2023-09-19T15:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.291
+price: 0.0962
+id: "6509bc22453640cb09341fca"
+createdAt: "2023-09-19T15:30:16Z"
+transactionID: "0.0.1034@1695137402.694623405"
+transactionState: Paid
+]
+2023-09-19T15:30:00Z
+[timestamp: "2023-09-19T15:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.255
+price: 0.0962
+id: "6509bfa621041178e5cce542"
+createdAt: "2023-09-19T15:45:15Z"
+transactionID: "0.0.1034@1695138302.728763841"
+transactionState: Paid
+]
+2023-09-19T15:45:00Z
+[timestamp: "2023-09-19T15:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.279
+price: 0.0962
+id: "6509c32a54c4fad56da06a9c"
+createdAt: "2023-09-19T16:00:15Z"
+transactionID: "0.0.1034@1695139200.046241777"
+transactionState: Paid
+]
+2023-09-19T16:00:00Z
+[timestamp: "2023-09-19T16:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.21
+price: 0.0962
+id: "6509c6addee51f5d49a85a8b"
+createdAt: "2023-09-19T16:15:15Z"
+transactionID: "0.0.1034@1695140099.685277629"
+transactionState: Paid
+]
+2023-09-19T16:15:00Z
+[timestamp: "2023-09-19T16:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.114
+price: 0.0962
+id: "6509ca32276202c9466ba2da"
+createdAt: "2023-09-19T16:30:15Z"
+transactionID: "0.0.1034@1695141001.739318012"
+transactionState: Paid
+]
+2023-09-19T16:30:00Z
+[timestamp: "2023-09-19T16:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.158
+price: 0.0962
+id: "6509cdb6210ef44f720d9ce4"
+createdAt: "2023-09-19T16:45:15Z"
+transactionID: "0.0.1034@1695141900.909642012"
+transactionState: Paid
+]
+2023-09-19T16:45:00Z
+[timestamp: "2023-09-19T16:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.16
+price: 0.0962
+id: "6509d139fbde29d876d4c4a6"
+createdAt: "2023-09-19T17:00:15Z"
+transactionID: "0.0.1034@1695142799.275478454"
+transactionState: Paid
+]
+2023-09-19T17:00:00Z
+[timestamp: "2023-09-19T17:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.085
+price: 0.0962
+id: "6509d4be69a117a938580ef8"
+createdAt: "2023-09-19T17:15:15Z"
+transactionID: "0.0.1034@1695143701.357722745"
+transactionState: Paid
+]
+2023-09-19T17:15:00Z
+[]
+2023-09-19T17:30:00Z
+[]
+2023-09-19T17:45:00Z
+[]
+2023-09-19T18:00:00Z
+[]
+2023-09-19T18:15:00Z
+[]
+2023-09-19T18:30:00Z
+[]
+2023-09-19T18:45:00Z
+[]
+2023-09-19T19:00:00Z
+[]
+2023-09-19T19:15:00Z
+[]
+2023-09-19T19:30:00Z
+[]
+2023-09-19T19:45:00Z
+[]
+2023-09-19T20:00:00Z
+[]
+2023-09-19T20:15:00Z
+[]
+2023-09-19T20:30:00Z
+[]
+2023-09-19T20:45:00Z
+[]
+2023-09-19T21:00:00Z
+[]
+2023-09-19T21:15:00Z
+[]
+2023-09-19T21:30:00Z
+[]
+2023-09-19T21:45:00Z
+[]
+2023-09-19T22:00:00Z
+[]
+2023-09-19T22:15:00Z
+[]
+2023-09-19T22:30:00Z
+[]
+2023-09-19T22:45:00Z
+[]
+2023-09-19T23:00:00Z
+[]
+2023-09-19T23:15:00Z
+[]
+2023-09-19T23:30:00Z
+[]
+2023-09-19T23:45:00Z
+[]
+2023-09-20T00:00:00Z
+[]
+2023-09-20T00:15:00Z
+[]
+2023-09-20T00:30:00Z
+[]
+2023-09-20T00:45:00Z
+[]
+2023-09-20T01:00:00Z
+[]
+2023-09-20T01:15:00Z
+[]
+2023-09-20T01:30:00Z
+[]
+2023-09-20T01:45:00Z
+[]
+2023-09-20T02:00:00Z
+[]
+2023-09-20T02:15:00Z
+[]
+2023-09-20T02:30:00Z
+[]
+2023-09-20T02:45:00Z
+[]
+2023-09-20T03:00:00Z
+[]
+2023-09-20T03:15:00Z
+[]
+2023-09-20T03:30:00Z
+[]
+2023-09-20T03:45:00Z
+[]
+2023-09-20T04:00:00Z
+[]
+2023-09-20T04:15:00Z
+[]
+2023-09-20T04:30:00Z
+[]
+2023-09-20T04:45:00Z
+[]
+2023-09-20T05:00:00Z
+[]
+2023-09-20T05:15:00Z
+[]
+2023-09-20T05:30:00Z
+[]
+2023-09-20T05:45:00Z
+[]
+2023-09-20T06:00:00Z
+[]
+2023-09-20T06:15:00Z
+[]
+2023-09-20T06:30:00Z
+[]
+2023-09-20T06:45:00Z
+[]
+2023-09-20T07:00:00Z
+[timestamp: "2023-09-20T07:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.026
+price: 0.0962
+id: "650a999eb63b2713f0d0d9e9"
+createdAt: "2023-09-20T07:15:14Z"
+transactionID: "0.0.1034@1695194098.898958276"
+transactionState: Paid
+]
+2023-09-20T07:15:00Z
+[timestamp: "2023-09-20T07:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.029
+price: 0.0962
+id: "650a9d227e1b88613b1926f2"
+createdAt: "2023-09-20T07:30:15Z"
+transactionID: "0.0.1034@1695194999.694596482"
+transactionState: Paid
+]
+2023-09-20T07:30:00Z
+[timestamp: "2023-09-20T07:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.032
+price: 0.0962
+id: "650aa0a5f955929772b5df8a"
+createdAt: "2023-09-20T07:45:16Z"
+transactionID: "0.0.1034@1695195900.887496949"
+transactionState: Paid
+]
+2023-09-20T07:45:00Z
+[timestamp: "2023-09-20T07:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.041
+price: 0.0962
+id: "650aa42a8f36fedf86acc0b3"
+createdAt: "2023-09-20T08:00:15Z"
+transactionID: "0.0.1034@1695196803.274668103"
+transactionState: Paid
+]
+2023-09-20T08:00:00Z
+[timestamp: "2023-09-20T08:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.04
+price: 0.0962
+id: "650aa7ae7cd77f367cd41b3a"
+createdAt: "2023-09-20T08:15:16Z"
+transactionID: "0.0.1034@1695197702.327554566"
+transactionState: Paid
+]
+2023-09-20T08:15:00Z
+[timestamp: "2023-09-20T08:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.027
+price: 0.0962
+id: "650aab3201467dff75480041"
+createdAt: "2023-09-20T08:30:15Z"
+transactionID: "0.0.1034@1695198601.655582842"
+transactionState: Paid
+]
+2023-09-20T08:30:00Z
+[timestamp: "2023-09-20T08:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.026
+price: 0.0962
+id: "650aaeb6fc0e694e371154cb"
+createdAt: "2023-09-20T08:45:15Z"
+transactionID: "0.0.1034@1695199501.135044960"
+transactionState: Paid
+]
+2023-09-20T08:45:00Z
+[timestamp: "2023-09-20T08:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.117
+price: 0.0962
+id: "650ab23ad297b011c0a2e8ca"
+createdAt: "2023-09-20T09:00:15Z"
+transactionID: "0.0.1034@1695200401.597354180"
+transactionState: Paid
+]
+2023-09-20T09:00:00Z
+[timestamp: "2023-09-20T09:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.18
+price: 0.0962
+id: "650ab5be1ad9050098396d62"
+createdAt: "2023-09-20T09:15:15Z"
+transactionID: "0.0.1034@1695201298.751954267"
+transactionState: Paid
+]
+2023-09-20T09:15:00Z
+[timestamp: "2023-09-20T09:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.118
+price: 0.0962
+id: "650ab94240b92c37529f3781"
+createdAt: "2023-09-20T09:30:15Z"
+transactionID: "0.0.1034@1695202199.190726722"
+transactionState: Paid
+]
+2023-09-20T09:30:00Z
+[timestamp: "2023-09-20T09:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.155
+price: 0.0962
+id: "650abcc6afb888d333274f3c"
+createdAt: "2023-09-20T09:45:15Z"
+transactionID: "0.0.1034@1695203103.251953707"
+transactionState: Paid
+]
+2023-09-20T09:45:00Z
+[timestamp: "2023-09-20T09:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.187
+price: 0.0962
+id: "650ac04a560c47c9ec53cc7f"
+createdAt: "2023-09-20T10:00:16Z"
+transactionID: "0.0.1034@1695204003.117588257"
+transactionState: Paid
+]
+2023-09-20T10:00:00Z
+[timestamp: "2023-09-20T10:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.185
+price: 0.0962
+id: "650ac3cece18f343e71417d2"
+createdAt: "2023-09-20T10:15:15Z"
+transactionID: "0.0.1034@1695204902.755237298"
+transactionState: Paid
+]
+2023-09-20T10:15:00Z
+[timestamp: "2023-09-20T10:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.174
+price: 0.0962
+id: "650ac751864ce8c5e59a9c06"
+createdAt: "2023-09-20T10:30:15Z"
+transactionID: "0.0.1034@1695205801.779308778"
+transactionState: Paid
+]
+2023-09-20T10:30:00Z
+[timestamp: "2023-09-20T10:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.19
+price: 0.0962
+id: "650acad65ce7faaf3694ca94"
+createdAt: "2023-09-20T10:45:16Z"
+transactionID: "0.0.1034@1695206703.783740388"
+transactionState: Paid
+]
+2023-09-20T10:45:00Z
+[timestamp: "2023-09-20T10:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.182
+price: 0.0962
+id: "650ace5adc7c85be406dfbec"
+createdAt: "2023-09-20T11:00:15Z"
+transactionID: "0.0.1034@1695207598.332483913"
+transactionState: Paid
+]
+2023-09-20T11:00:00Z
+[timestamp: "2023-09-20T11:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.033
+price: 0.0962
+id: "650ad1deb1eb51d329891d49"
+createdAt: "2023-09-20T11:15:15Z"
+transactionID: "0.0.1034@1695208499.945528313"
+transactionState: Paid
+]
+2023-09-20T11:15:00Z
+[timestamp: "2023-09-20T11:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.119
+price: 0.0962
+id: "650ad5614f52990f9a8c4508"
+createdAt: "2023-09-20T11:30:15Z"
+transactionID: "0.0.1034@1695209398.841889711"
+transactionState: Paid
+]
+2023-09-20T11:30:00Z
+[timestamp: "2023-09-20T11:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.179
+price: 0.0962
+id: "650ad8e60fa2832a5c7effc4"
+createdAt: "2023-09-20T11:45:15Z"
+transactionID: "0.0.1034@1695210301.308553353"
+transactionState: Paid
+]
+2023-09-20T11:45:00Z
+[timestamp: "2023-09-20T11:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.18
+price: 0.0962
+id: "650adc6ae6feb2e6d3d4b08c"
+createdAt: "2023-09-20T12:00:15Z"
+transactionID: "0.0.1034@1695211198.786571738"
+transactionState: Paid
+]
+2023-09-20T12:00:00Z
+[timestamp: "2023-09-20T12:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.173
+price: 0.0962
+id: "650adfee52730d5a3471b738"
+createdAt: "2023-09-20T12:15:15Z"
+transactionID: "0.0.1034@1695212102.245329484"
+transactionState: Paid
+]
+2023-09-20T12:15:00Z
+[timestamp: "2023-09-20T12:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.091
+price: 0.0962
+id: "650ae37214bf5bed4b04341c"
+createdAt: "2023-09-20T12:30:15Z"
+transactionID: "0.0.1034@1695212998.430464157"
+transactionState: Paid
+]
+2023-09-20T12:30:00Z
+[]
+2023-09-20T12:45:00Z
+[]
+2023-09-20T13:00:00Z
+[]
+2023-09-20T13:15:00Z
+[timestamp: "2023-09-20T13:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.164
+price: 0.0962
+id: "650af182a6ab23dc78d0146e"
+createdAt: "2023-09-20T13:30:16Z"
+transactionID: "0.0.1034@1695216599.964524812"
+transactionState: Paid
+]
+2023-09-20T13:30:00Z
+[timestamp: "2023-09-20T13:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.187
+price: 0.0962
+id: "650af5061b4301df408f6f3e"
+createdAt: "2023-09-20T13:45:15Z"
+transactionID: "0.0.1034@1695217501.590938079"
+transactionState: Paid
+]
+2023-09-20T13:45:00Z
+[timestamp: "2023-09-20T13:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.244
+price: 0.0962
+id: "650af88a89d66ab453fe5b92"
+createdAt: "2023-09-20T14:00:15Z"
+transactionID: "0.0.1034@1695218398.506626705"
+transactionState: Paid
+]
+2023-09-20T14:00:00Z
+[timestamp: "2023-09-20T14:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.122
+price: 0.0962
+id: "650afc0efb41ae66d3951b22"
+createdAt: "2023-09-20T14:15:15Z"
+transactionID: "0.0.1034@1695219298.361401883"
+transactionState: Paid
+]
+2023-09-20T14:15:00Z
+[timestamp: "2023-09-20T14:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.256
+price: 0.0962
+id: "650aff9264cb35e74c4b883e"
+createdAt: "2023-09-20T14:30:15Z"
+transactionID: "0.0.1034@1695220198.816069321"
+transactionState: Paid
+]
+2023-09-20T14:30:00Z
+[timestamp: "2023-09-20T14:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.194
+price: 0.0962
+id: "650b0315d6afddf7bcfba2e8"
+createdAt: "2023-09-20T14:45:15Z"
+transactionID: "0.0.1034@1695221101.530976881"
+transactionState: Paid
+]
+2023-09-20T14:45:00Z
+[timestamp: "2023-09-20T14:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.204
+price: 0.0962
+id: "650b069ac965fb3af76566d6"
+createdAt: "2023-09-20T15:00:15Z"
+transactionID: "0.0.1034@1695222001.738256904"
+transactionState: Paid
+]
+2023-09-20T15:00:00Z
+[timestamp: "2023-09-20T15:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.202
+price: 0.0962
+id: "650b0a1e107b0fde96829aaa"
+createdAt: "2023-09-20T15:15:15Z"
+transactionID: "0.0.1034@1695222901.226290837"
+transactionState: Paid
+]
+2023-09-20T15:15:00Z
+[timestamp: "2023-09-20T15:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.216
+price: 0.0962
+id: "650b0da2b706189a135663e4"
+createdAt: "2023-09-20T15:30:15Z"
+transactionID: "0.0.1034@1695223801.116339519"
+transactionState: Paid
+]
+2023-09-20T15:30:00Z
+[timestamp: "2023-09-20T15:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.227
+price: 0.0962
+id: "650b1125ad4d3fd8a5a245c1"
+createdAt: "2023-09-20T15:45:15Z"
+transactionID: "0.0.1034@1695224700.882194211"
+transactionState: Paid
+]
+2023-09-20T15:45:00Z
+[timestamp: "2023-09-20T15:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.258
+price: 0.0962
+id: "650b14aa9cb9f045de281dd0"
+createdAt: "2023-09-20T16:00:15Z"
+transactionID: "0.0.1034@1695225599.811543218"
+transactionState: Paid
+]
+2023-09-20T16:00:00Z
+[timestamp: "2023-09-20T16:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.171
+price: 0.0962
+id: "650b182ea1e83e193efb6c54"
+createdAt: "2023-09-20T16:15:15Z"
+transactionID: "0.0.1034@1695226499.629295024"
+transactionState: Paid
+]
+2023-09-20T16:15:00Z
+[timestamp: "2023-09-20T16:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.147
+price: 0.0962
+id: "650b1bb2ef596c2a51b3f91b"
+createdAt: "2023-09-20T16:30:15Z"
+transactionID: "0.0.1034@1695227402.153761216"
+transactionState: Paid
+]
+2023-09-20T16:30:00Z
+[timestamp: "2023-09-20T16:30:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.1
+price: 0.0962
+id: "650b1f35e367292a2d7e47fa"
+createdAt: "2023-09-20T16:45:15Z"
+transactionID: "0.0.1034@1695228299.818312043"
+transactionState: Paid
+]
+2023-09-20T16:45:00Z
+[timestamp: "2023-09-20T16:45:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.099
+price: 0.0962
+id: "650b22ba65d3db25e0def89f"
+createdAt: "2023-09-20T17:00:16Z"
+transactionID: "0.0.1034@1695229201.045344015"
+transactionState: Paid
+]
+2023-09-20T17:00:00Z
+[timestamp: "2023-09-20T17:00:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.093
+price: 0.0962
+id: "650b263e68a09c35e56702f1"
+createdAt: "2023-09-20T17:15:15Z"
+transactionID: "0.0.1034@1695230101.792515657"
+transactionState: Paid
+]
+2023-09-20T17:15:00Z
+[timestamp: "2023-09-20T17:15:00Z"
+buyerID: "es-sms-15"
+sellerID: "es-sms-18"
+energy: 0.046
+price: 0.0962
+id: "650b29c2b71139b2e1498f67"
+createdAt: "2023-09-20T17:30:15Z"
+transactionID: "0.0.1034@1695231000.623615649"
+transactionState: Paid
+]
+2023-09-20T17:30:00Z
+[]
+2023-09-20T17:45:00Z
+[]
+2023-09-20T18:00:00Z
+[]
+2023-09-20T18:15:00Z
+[]
+2023-09-20T18:30:00Z
+[]
+2023-09-20T18:45:00Z
+[]
+2023-09-20T19:00:00Z
+[]
