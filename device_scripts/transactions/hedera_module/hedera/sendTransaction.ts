@@ -4,11 +4,13 @@ import {
     Hbar,
     HbarUnit,
     PrivateKey,
+    TopicId,
     TopicMessageSubmitTransaction,
     Transaction,
     TransactionResponse,
     TransferTransaction,
 } from "@hashgraph/sdk";
+import { getAccountId, retrieve } from "./loadKeys";
 
 const mirror = "10.255.33.18:5600"
 const node = { "10.255.33.18:50211": new AccountId(3) };
@@ -43,10 +45,10 @@ async function dummyTransaction() {
     return await getTxId(transaction, ed25519_client)
 }
 
-async function getTxId(transaction: TransactionResponse, ed25519_client: Client) {
+async function getTxId(transaction: TransactionResponse, deviceWallet: Client) {
 
     try {
-        const transactionReceipt = await transaction.getReceipt(ed25519_client)
+        const transactionReceipt = await transaction.getReceipt(deviceWallet)
         console.log(`[${new Date()}] Transaction "${transaction.transactionId.toString()}" with status: ${transactionReceipt.status.toString()} `)
         if (transactionReceipt.status.toString() === "SUCCESS") {
             return transaction.transactionId.toString()
@@ -60,19 +62,16 @@ async function getTxId(transaction: TransactionResponse, ed25519_client: Client)
 
 export async function handleJsonPayment(entry: any) {
 
-    const ed25519_client =
-        Client
-            //.forNetwork(node)
-            .forTestnet()
-            //.setMirrorNetwork(mirror)
-            .setMaxAttempts(1000000);
-
-    ed25519_client.setOperator(
-        AccountId.fromString("0.0.1022"),
-        PrivateKey.fromStringED25519("0xa608e2130a0a3cb34f86e757303c862bee353d9ab77ba4387ec084f881d420d4")
+    const deviceWallet =
+        Client.forNetwork(node).setMirrorNetwork(mirror).setMaxAttempts(1000000);
+    const key = await retrieve()
+    const accountID = await getAccountId(key.publicKey.toStringDer())
+    deviceWallet.setOperator(
+        accountID,
+        key
     );
     const { identifier, buyer, seller, energy, price, timestamp } = entry;
-    if (!AccountId.fromString(buyer).equals(ed25519_client.operatorAccountId!)) return '-1';
+    if (!AccountId.fromString(buyer).equals(deviceWallet.operatorAccountId!)) return '-1';
 
     /** Creating Transaction Object */
     const transaction = await new TransferTransaction()
@@ -86,56 +85,47 @@ export async function handleJsonPayment(entry: any) {
         .setTransactionMemo(`[${identifier}] Energy transactioned: ${energy}, at ${new Date(timestamp)}`)
 
         /**Sealing Transaction and executing on DLT */
-        .execute(ed25519_client);
+        .execute(deviceWallet);
 
-    return await getTxId(transaction, ed25519_client);
+    return await getTxId(transaction, deviceWallet);
 }
 
 
 export async function handleTxPayment(entry: any) {
-    const ed25519_client =
-        Client
-            //.forNetwork(node)
-            .forTestnet()
-            .setMirrorNetwork(mirror)
-            .setMaxAttempts(1000000);
-
-    ed25519_client.setOperator(
-        AccountId.fromString("0.0.1022"),
-        PrivateKey.fromStringED25519("0xa608e2130a0a3cb34f86e757303c862bee353d9ab77ba4387ec084f881d420d4")
+    const deviceWallet =
+        Client.forNetwork(node).setMirrorNetwork(mirror).setMaxAttempts(1000000);
+    const key = await retrieve()
+    const accountID = await getAccountId(key.publicKey.toStringDer())
+    deviceWallet.setOperator(
+        accountID,
+        key
     );
-
     const { tx } = entry;
     /**Load Bytearray into Transaction Object */
     const payload = Transaction.fromBytes(tx);
 
     console.log(payload.transactionMemo)
 
-    const transaction = await payload.execute(ed25519_client)
+    const transaction = await payload.execute(deviceWallet)
 
-    return await getTxId(transaction, ed25519_client);
+    return await getTxId(transaction, deviceWallet);
 }
 
 export async function emitTopicMessage(entry: any) {
-    const ed25519_client =
-        Client
-            //.forNetwork(node)
-            .forTestnet()
-            //.setMirrorNetwork(mirror)
-            .setMaxAttempts(1000000);
-
-    ed25519_client.setOperator(
-        AccountId.fromString("0.0.3685177"),
-        PrivateKey.fromStringED25519("0x302e020100300506032b6570042204208c2b8f3f073118f29ca1f6bc790710cb65e1697bd44e6bd0fd6c199904e405da")
+    const deviceWallet =
+        Client.forNetwork(node).setMirrorNetwork(mirror).setMaxAttempts(1000000);
+    const key = await retrieve()
+    const accountID = await getAccountId(key.publicKey.toStringDer())
+    deviceWallet.setOperator(
+        accountID,
+        key
     );
-
-
     const { payment, tx } = entry;
 
     const submit = await new TopicMessageSubmitTransaction()
-        .setTopicId("0.0.15010788")
+        .setTopicId(TopicId.fromString("0.0.1066"))
         .setMessage(`${payment} : ${tx}`)
-        .execute(ed25519_client);
+        .execute(deviceWallet);
 
-    console.log((await submit.getReceipt(ed25519_client)).status.toString());
+    console.log((await submit.getReceipt(deviceWallet)).status.toString());
 }

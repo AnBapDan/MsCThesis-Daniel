@@ -1,6 +1,7 @@
 import * as mariadb from 'mariadb';
 
 import { emitTopicMessage, handleJsonPayment, handleTxPayment } from './hedera/sendTransaction';
+import { sendReceipts } from './api/sendReceipts';
 
 const pool = mariadb.createPool({host: 'localhost', user: 'root', connectionLimit: 5, database:'payments'});
 async function performDatabaseOperations() {
@@ -31,6 +32,7 @@ async function jsonTransactions(db:mariadb.PoolConnection){
         await emitTopicMessage({ payment: id, tx: txId })
         await db.query(`INSERT INTO issued (payment, tx) VALUES ('${id}', '${txId}')`)
     } 
+    await sendReceipts()
 }
 
 async function txTransactions(db: mariadb.PoolConnection) {
@@ -51,6 +53,7 @@ async function txTransactions(db: mariadb.PoolConnection) {
         await emitTopicMessage({ payment: id, tx: txId })
         await db.query(`INSERT INTO issued (payment, tx) VALUES ('${id}', '${txId}')`)
     }
+    await sendReceipts()
 }
 
 performDatabaseOperations().catch(() =>{console.error; process.exit(-1)})

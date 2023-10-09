@@ -11,8 +11,8 @@ import mysql.connector
 
 db_config = {
     "host": "localhost",     # Hostname of the database server
-    "user": "es-sms-15",     # Your database username
-    "password": "es", # Your database password
+    "user": "root",     # Your database username
+    "password": "", # Your database password
     "database": "payments"    # Name of the database
 }
 
