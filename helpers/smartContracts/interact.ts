@@ -64,38 +64,30 @@ async function retrievePendingIds(contractId: string) {
     .setMaxQueryPayment(new Hbar(1));
   const contractQuerySubmit = await contractQueryTx.execute(client);
   console.log("Passed")
-  const array = contractQuerySubmit.getResult(["uint16[]"])[0] 
+  const array = contractQuerySubmit.getResult(["uint16[]"])[0]
   console.log(array)
   process.exit(0)
   //TODO checkar este array
 }
 
 
-// async function retrievePendingIds(contractId: string) {
-//   console.log('Getting pendingids owner...')
-//   const prompt = new ContractExecuteTransaction()
-//   .setContractId(contractId)
-//   .setFunction('retrievePendingIds')
-//   .setGas(100000)
 
-//   const promptResponse = await prompt.execute(client)
-//   console.log((await promptResponse.getVerboseRecord(client)).contractFunctionResult?.getBytes32(0))
-//   const promptReceipt = await promptResponse.getReceipt(client)
-// }
+export async function issuePayment(contractId: string, accountId: string, paymentId: number, price: number , buyer: Client) {
 
-
-async function sendPayment(contractId: string, accountId: string, paymentId: number) {
   const accid = AccountId.fromString(accountId)
   const prompt = new ContractExecuteTransaction()
     .setContractId(contractId)
     .setFunction('issuePayment',
-      new ContractFunctionParameters().addAddress(accid.toSolidityAddress()).addUint16(paymentId))
+      new ContractFunctionParameters()
+        .addAddress(accid.toSolidityAddress())
+        .addUint16(paymentId))
     .setGas(100000)
-    .setPayableAmount(new Hbar(2))
+    .setPayableAmount(new Hbar(price))
 
-  const promptResponse = await prompt.execute(client)
-  const promptReceipt = await promptResponse.getReceipt(client)
+  const promptResponse = await prompt.execute(buyer)
+  const promptReceipt = await promptResponse.getReceipt(buyer)
   console.log(promptReceipt.status + "\t Address = " + promptReceipt.contractId)
+
 }
 
 //removeDevice('0.0.4518942', "0.0.829465")
