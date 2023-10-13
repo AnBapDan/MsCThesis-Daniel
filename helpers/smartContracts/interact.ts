@@ -1,5 +1,4 @@
 import { AccountId, Client, ContractCallQuery, ContractExecuteTransaction, ContractFunctionParameters, ContractId, ContractInfoQuery, Hbar, PrivateKey, TopicCreateTransaction } from "@hashgraph/sdk";
-import { hethers } from '@hashgraph/hethers';
 import { toSolidityAddress } from "@hashgraph/sdk/lib/EntityIdHelper";
 
 const client = Client.forTestnet()
@@ -56,18 +55,20 @@ async function removeDevice(contractId: string, accountId: string) {
   console.log(promptReceipt)
 }
 
-// async function retrievePendingIds(contractId:string){
-//   console.log('Getting pendingids owner...')
-//   const contractQueryTx = new ContractCallQuery()
-//     .setContractId(contractId)
-//     .setGas(100000)
-//     .setFunction("retrievePendingIds", new ContractFunctionParameters())
-//     .setMaxQueryPayment(new Hbar(1));
-//   const contractQuerySubmit = await contractQueryTx.execute(client);
-//   console.log(contractQuerySubmit.getBytes32(0))
-//   process.exit(0)
-//   //TODO checkar este array
-// }
+async function retrievePendingIds(contractId: string) {
+  console.log('Getting pending ids...')
+  const contractQueryTx = new ContractCallQuery()
+    .setContractId(contractId)
+    .setGas(100000)
+    .setFunction("retrievePendingIds", new ContractFunctionParameters())
+    .setMaxQueryPayment(new Hbar(1));
+  const contractQuerySubmit = await contractQueryTx.execute(client);
+  console.log("Passed")
+  const array = contractQuerySubmit.getResult(["uint16[]"])[0] 
+  console.log(array)
+  process.exit(0)
+  //TODO checkar este array
+}
 
 
 // async function retrievePendingIds(contractId: string) {
@@ -81,11 +82,6 @@ async function removeDevice(contractId: string, accountId: string) {
 //   console.log((await promptResponse.getVerboseRecord(client)).contractFunctionResult?.getBytes32(0))
 //   const promptReceipt = await promptResponse.getReceipt(client)
 // }
-
-
-
-async function retrievePendingIds() {
-}
 
 
 async function sendPayment(contractId: string, accountId: string, paymentId: number) {
@@ -103,5 +99,6 @@ async function sendPayment(contractId: string, accountId: string, paymentId: num
 }
 
 //removeDevice('0.0.4518942', "0.0.829465")
-retrievePendingIds()
+//getMemo('0.0.4518942')
+retrievePendingIds('0.0.4518942')
 //sendPayment('0.0.4518942',"0.0.829465",12345)

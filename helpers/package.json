@@ -12,6 +12,7 @@
     "@hashgraph/hethers": "^1.2.6",
     "@hashgraph/sdk": "^2.35.0",
     "ethers": "^6.7.1",
+    "ts-node": "^10.9.1",
     "web3": "^4.1.2"
   }
 }
