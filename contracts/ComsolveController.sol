@@ -39,7 +39,7 @@ contract ComsolveController {
         allowedDevices[oldDevice] = false;
     }
 
-    function issuePayment(address to, uint16 paymentId) external payable {
+    function issuePayment(address to, uint paymentId) external payable {
         require(allowedDevices[to] && msg.value != 0);
         require(
             !isRetrievingPending,
@@ -77,7 +77,7 @@ contract ComsolveController {
         return tmp;
     }
 
-    function confirmPayment( uint16[] calldata accepted, uint16[] calldata denied) external ownerRestricted {
+    function confirmPayment( uint[] calldata accepted, uint[] calldata denied) external ownerRestricted {
         for (uint16 i; i < accepted.length; i++) {
             Payment memory confirm = pendingApproval[accepted[i]];
             uint quantity = confirm.quantity;

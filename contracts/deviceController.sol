@@ -11,8 +11,8 @@ contract DeviceConfirmTransaction{
     address public owner;
     mapping(address => bool) private allowedDevices;
     mapping(address => mapping(uint => Payment) payments) private pendingApproval;
-    mapping(address => uint16[]) private pendingIds;
-    mapping(address => uint) private payed;
+    mapping(address => uint[]) private pendingIds;
+    mapping(address => uint) private paid;
 
     modifier ownerRestricted{
         require(owner == msg.sender);
@@ -39,7 +39,7 @@ contract DeviceConfirmTransaction{
         //allowedDevices[oldDevice] = false;
     }
 
-    function issuePayment(address to, uint16 paymentId) external payable {
+    function issuePayment(address to, uint paymentId) external payable {
         //TODO check if already exists id
         require(pendingApproval[to][paymentId].quantity == 0);
         pendingApproval[to][paymentId] = Payment({
@@ -51,7 +51,7 @@ contract DeviceConfirmTransaction{
 
     }
 
-    function retrievePendingIds() external view returns(uint16[] memory){
+    function retrievePendingIds() external view returns(uint[] memory){
         return pendingIds[msg.sender];
     }
 
@@ -59,7 +59,7 @@ contract DeviceConfirmTransaction{
         return pendingApproval[msg.sender][index];
     }
 
-    function confirmPayment( uint16[] calldata accepted, uint16[] calldata denied) external {
+    function confirmPayment(uint[] calldata accepted, uint[] calldata denied) external {
         require(allowedDevices[msg.sender]);
         mapping(uint => Payment) storage walletPending = pendingApproval[msg.sender];
 
@@ -68,7 +68,7 @@ contract DeviceConfirmTransaction{
            Payment storage acceptedPayment = walletPending[accepted[i]] ;
            uint quantity = acceptedPayment.quantity;
            acceptedPayment.quantity = 0;
-           payed[msg.sender] += quantity;
+           paid[msg.sender] += quantity;
            delete walletPending[accepted[i]];
         }
 
