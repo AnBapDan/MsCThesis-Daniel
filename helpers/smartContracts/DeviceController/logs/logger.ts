@@ -13,7 +13,7 @@ export class Logger {
 
     log(message: string) {
         const timestamp = new Date().toISOString();
-        const logMessage = `[${timestamp}] entity: ${message}\n`;
+        const logMessage = `[${timestamp}] ${this.entity}: ${message}\n`;
 
         fs.appendFile(this.logFilePath, logMessage, (err) => {
             if (err) {

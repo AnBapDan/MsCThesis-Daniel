@@ -1,5 +1,6 @@
+import { AccountId, Client, ContractCallQuery, ContractFunctionParameters, Hbar, PrivateKey, TransactionId } from "@hashgraph/sdk";
 import { getEntry } from "../config/parseLogMarket";
-import { confirmPayment, retrievePayment, retrievePendingIds } from "../interact";
+import { confirmPayment, getMemo, getOwner, retrievePayment, retrievePendingIds } from "../interact";
 import { accountSeller } from "../utils/accounts";
 import { Logger } from "./logs/logger";
 
@@ -12,15 +13,15 @@ const logger = new Logger(logFilePath, 'Seller');
 const contractId = "0.0.5695621"
 
 /**Smart contract needs to be replaced */
-async function main(iteration: number) {
-    let transactions: any[] = []
-    let output = getEntry(iteration)
+export async function seller() {
+    let transactions: TransactionId[] = []
+    //let output = getEntry(iteration)
 
     //Get indexes of payments on the contract
     const pending = await retrievePendingIds(contractId, accountSeller)
-    logger.log('gas ='+ pending.gas)
+
     //Retrieve its values from the chain 
-    for await (const value of pending.array) {
+    for await (const value of pending) {
         const result = await retrievePayment(
             contractId,
             value,
@@ -28,9 +29,13 @@ async function main(iteration: number) {
         )
         transactions.push(result)
     }
-    
-    //Bypass validation = All payments approved
-    await confirmPayment(contractId, pending.array, [], accountSeller)
 
+    //Bypass validation = All payments approved
+    const txid = await confirmPayment(contractId, pending, [0], accountSeller)
+    transactions.push(txid)
+    const txs = transactions.map((ids) => logger.log(ids.toString()))
+
+    process.exit(0)
 }
-main(0)
+
+

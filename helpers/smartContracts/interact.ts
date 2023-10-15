@@ -1,4 +1,6 @@
 import { AccountId, Client, ContractCallQuery, ContractExecuteTransaction, ContractFunctionParameters, ContractInfoQuery, Hbar, TransactionId } from "@hashgraph/sdk";
+import { BigNumber } from "@hashgraph/sdk/lib/Transfer";
+import Long from "long";
 
 
 /**Publicly Methods */
@@ -59,23 +61,22 @@ export async function issuePayment(contractId: string, accountId: string, paymen
     .setPayableAmount(new Hbar(price))
 
   const promptResponse = await prompt.execute(buyer)
-  
+  consol
   const promptReceipt = await promptResponse.getReceipt(buyer)
+
   return {status: promptReceipt.status.toString(), transaction : promptResponse.transactionId.toString()}
 }
 
 /** Validation Entity Exclusive Methods (Seller or Administrator) */
-export async function retrievePendingIds(contractId: string, client: Client): Promise<{gas:number,array:number[]}>{
+export async function retrievePendingIds(contractId: string, client: Client){
   const contractQueryTx = new ContractCallQuery()
-    .setContractId(contractId)
-    .setGas(100000000)
-    .setFunction("retrievePendingIds", new ContractFunctionParameters())
-    .setMaxQueryPayment(new Hbar(1));
-  const contractQuerySubmit = await contractQueryTx.execute(client);
-
+  .setContractId(contractId)
+  .setGas(100000)
+  .setFunction("retrievePendingIds", new ContractFunctionParameters())
+  .setMaxQueryPayment(new Hbar(1))
+  const contractQuerySubmit = await contractQueryTx.execute(client)
   const array = contractQuerySubmit.getResult(["uint[]"])[0]
-  console.log('aqui')
-  return contractQuerySubmit.gasUsed, array
+  return array
 }
 
 export async function retrievePayment(contractId: string, paymentId: number, client: Client) {
@@ -90,12 +91,14 @@ export async function retrievePayment(contractId: string, paymentId: number, cli
   return promptResponse.gasUsed, result
 }
 
-export async function confirmPayment(contractId:string, accepted: number[], denied: number[], client: Client):Promise<TransactionId> {
+export async function confirmPayment(contractId:string, accepted: BigNumber[], denied: number[], client: Client):Promise<TransactionId> {
+  const numberids = accepted.map((num) =>num.toNumber())
+
   const prompt = new ContractExecuteTransaction()
     .setContractId(contractId)
     .setFunction('confirmPayment',
       new ContractFunctionParameters()
-        .addUint256Array(accepted)
+        .addUint256Array(numberids)
         .addUint256Array(denied))
     .setGas(100000)
 

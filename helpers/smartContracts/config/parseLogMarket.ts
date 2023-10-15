@@ -3,7 +3,7 @@ import * as fs from 'fs';
 
 export function getEntry(iteration: number) {
     // Read the log file
-    const logFilePath = '/home/dani/Documents/MsCThesis-Daniel/metrics/market.log';
+    const logFilePath = '../../../metrics/market.log';
     const logData = fs.readFileSync(logFilePath, 'utf-8');
     const entries = logData.split('\n')
     const output = parseDataLine(entries[iteration])
