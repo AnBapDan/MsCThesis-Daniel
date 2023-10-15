@@ -55,7 +55,7 @@ export async function issuePayment(contractId: string, accountId: string, paymen
       new ContractFunctionParameters()
         .addAddress(accid.toSolidityAddress())
         .addUint256(paymentId))
-    .setGas(100000)
+    .setGas(10000000)
     .setPayableAmount(new Hbar(price))
 
   const promptResponse = await prompt.execute(buyer)
@@ -66,15 +66,15 @@ export async function issuePayment(contractId: string, accountId: string, paymen
 
 /** Validation Entity Exclusive Methods (Seller or Administrator) */
 export async function retrievePendingIds(contractId: string, client: Client): Promise<{gas:number,array:number[]}>{
-  console.log('Getting pending ids...')
   const contractQueryTx = new ContractCallQuery()
     .setContractId(contractId)
-    .setGas(100000)
+    .setGas(100000000)
     .setFunction("retrievePendingIds", new ContractFunctionParameters())
     .setMaxQueryPayment(new Hbar(1));
   const contractQuerySubmit = await contractQueryTx.execute(client);
 
   const array = contractQuerySubmit.getResult(["uint[]"])[0]
+  console.log('aqui')
   return contractQuerySubmit.gasUsed, array
 }
 

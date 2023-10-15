@@ -23,7 +23,7 @@ async function main(iteration: number) {
     for await (const value of pending.array) {
         const result = await retrievePayment(
             contractId,
-            parseInt(output?.id!, 16),
+            value,
             accountSeller,
         )
         transactions.push(result)
@@ -32,6 +32,5 @@ async function main(iteration: number) {
     //Bypass validation = All payments approved
     await confirmPayment(contractId, pending.array, [], accountSeller)
 
-
-
 }
+main(0)

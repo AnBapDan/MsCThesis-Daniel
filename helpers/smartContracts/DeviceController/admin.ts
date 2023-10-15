@@ -54,7 +54,3 @@ async function init() {
     logger.log('Transaction ' + contractDev.txid)
     logger.log('Contract Devices ' + contractDev.contractid)
 }
-
-
-insert(accountBuyer.operatorAccountId?.toString()!)
-insert(accountSeller.operatorAccountId?.toString()!)

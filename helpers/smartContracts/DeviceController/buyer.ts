@@ -18,7 +18,7 @@ async function main(iteration:number) {
     const result = await issuePayment(
         contractId,
         accountSeller.operatorAccountId?.toString()!,
-        123,
+        parseInt(output?.id!,16),
         output?.price!,
         accountBuyer
         )
@@ -26,3 +26,5 @@ async function main(iteration:number) {
     logger.log('Transaction '+result.transaction)
     logger.log('Status code'+result.status)
 }
+
+main(0)
