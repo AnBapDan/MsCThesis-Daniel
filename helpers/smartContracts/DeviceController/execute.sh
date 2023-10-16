@@ -5,9 +5,12 @@
 # Start a for loop to iterate through the list
 for ((i=0; i<=777; i++))
 do
+  echo '__________________________________________'
+  echo 'iteraction ' $i
   ts-node execute.ts buyer $i
-  echo 'seller now'
-  ts-node execute.ts seller
+  echo '__________________________________________'
+  echo 'seller...'
+  ts-node seller.ts
 done
 
 echo "All items processed"

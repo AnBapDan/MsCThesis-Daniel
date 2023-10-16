@@ -1,5 +1,6 @@
+import { AccountBalanceQuery, AccountId, Hbar, HbarUnit, TransferTransaction } from "@hashgraph/sdk";
 import { deployContract } from "../config/deploy"
-import { insertDevices, removeDevice, retrievePayment, retrievePendingIds } from "../interact"
+import { getOwner, insertDevices, removeDevice, retrievePayment, retrievePendingIds } from "../interact"
 import { accountBuyer, accountOwner, accountSeller } from "../utils/accounts"
 import { Logger } from "./logs/logger";
 
@@ -10,16 +11,14 @@ const logger = new Logger(logFilePath, 'REC Manager');
 
 
 /** Contract ID for Device Controlled Contract */
-const contractId = "0.0.5695621"
+const contractId = "0.0.5699479"
 
 async function overwatch() {
-    const pending = await retrievePendingIds(contractId, accountOwner)
-    logger.log('gas =' + pending.gas)
+    const pending = await retrievePendingIds(contractId, accountOwner, logger)
 
 
     for await (const payment of pending.array) {
-        const result = await retrievePayment(contractId, payment, accountOwner)
-        logger.log('gas = ' + result.gasUsed)
+        const result = await retrievePayment(contractId, payment, accountOwner, logger)
     }
     /**Logic below... */
 }
@@ -27,22 +26,23 @@ async function overwatch() {
 
 async function insert(accountId: string) {
     const result = await insertDevices(contractId, accountId, accountOwner)
-    logger.log(''+result)
+    logger.log('New User ' + result)
 }
 
 async function remove(accountId: string) {
     const result = await removeDevice(contractId, accountId, accountOwner)
-    logger.log(''+result)
+    logger.log('' + result)
+    process.exit(0)
 }
 
 async function init() {
-    const contractRec = await deployContract(
-        '../../../bin/contracts/ComsolveController.bin',
-        'Ready to Test (all-mighty)',
-        accountOwner
-    )
-    logger.log('Transaction ' + contractRec.txid)
-    logger.log('Contract REC ' + contractRec.contractid)
+    // const contractRec = await deployContract(
+    //     '../../../bin/contracts/ComsolveController.bin',
+    //     'Ready to Test (all-mighty)',
+    //     accountOwner
+    // )
+    // logger.log('Transaction ' + contractRec.txid)
+    // logger.log('Contract REC ' + contractRec.contractid)
 
 
     const contractDev = await deployContract(
@@ -53,4 +53,40 @@ async function init() {
 
     logger.log('Transaction ' + contractDev.txid)
     logger.log('Contract Devices ' + contractDev.contractid)
+
 }
+
+async function queryBalances() {
+    let balance = await new AccountBalanceQuery()
+        .setAccountId(accountBuyer.operatorAccountId?.toString()!)
+        .execute(accountOwner);
+    logger.log(' Buyer initial Balance ' + balance.toString())
+
+    balance = await new AccountBalanceQuery()
+        .setAccountId(accountSeller.operatorAccountId?.toString()!)
+        .execute(accountOwner);
+
+    logger.log(' Seller initial Balance ' + balance.toString())
+}
+
+async function addBalance() {
+
+    const transaction = await new TransferTransaction()
+        /** Inserting Buyer Account and Hbar Value */
+        .addHbarTransfer(accountOwner.operatorAccountId!, Hbar.from(-Math.abs(9000), HbarUnit.Hbar))
+
+        /** Inserting Seller Account and Hbar Value */
+        .addHbarTransfer(accountSeller.operatorAccountId!, Hbar.from(Math.abs(4500), HbarUnit.Hbar))
+        .addHbarTransfer(accountBuyer.operatorAccountId!, Hbar.from(Math.abs(4500), HbarUnit.Hbar))
+
+        /**Sealing Transaction and executing on DLT */
+        .execute(accountOwner);
+    process.exit(0)
+}
+queryBalances()
+
+
+
+
+// insert(accountBuyer.operatorAccountId?.toString()!)
+// insert(accountSeller.operatorAccountId?.toString()!)

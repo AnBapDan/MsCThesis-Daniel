@@ -41,7 +41,7 @@ contract DeviceConfirmTransaction{
 
     function issuePayment(address to, uint paymentId) external payable {
         //TODO check if already exists id
-        require(pendingApproval[to][paymentId].quantity == 0);
+        //require(pendingApproval[to][paymentId].quantity == 0);
         pendingApproval[to][paymentId] = Payment({
             quantity: msg.value,
             from: msg.sender
@@ -51,11 +51,13 @@ contract DeviceConfirmTransaction{
 
     }
 
-    function retrievePendingIds() external view returns(uint[] memory){
-        return pendingIds[msg.sender];
+    function retrievePendingIds() external returns(uint[] memory){
+        uint[] memory tmp = pendingIds[msg.sender];
+        delete pendingIds[msg.sender];
+        return tmp;
     }
 
-    function retrievePayments(uint index) external view returns(Payment memory){
+    function retrievePayments(uint index) external view returns(Payment memory){        
         return pendingApproval[msg.sender][index];
     }
 

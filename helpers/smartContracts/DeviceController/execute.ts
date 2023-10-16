@@ -11,9 +11,4 @@ program
   .description('Call Function 1')
   .action(buyer);
 
-program
-  .command('seller')
-  .description('Call Function 2')
-  .action(seller);
-
 program.parse(process.argv);
