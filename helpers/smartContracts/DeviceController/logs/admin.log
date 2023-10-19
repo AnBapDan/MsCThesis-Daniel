@@ -1,10 +1,4 @@
-[2023-10-16T10:49:52.293Z] REC Manager: Transaction 0.0.829465@1697453374.488933912
-[2023-10-16T10:49:52.294Z] REC Manager: Contract REC 0.0.5699198
-[2023-10-16T11:18:55.284Z] REC Manager: Transaction 0.0.829465@1697455117.455938813
-[2023-10-16T11:18:55.285Z] REC Manager: Contract Devices 0.0.5699479
-[2023-10-16T11:19:56.769Z] REC Manager: New User 0.0.829465@1697455184.449359346
-[2023-10-16T11:19:56.938Z] REC Manager: New User 0.0.829465@1697455187.611179005
-[2023-10-16T13:10:20.660Z] REC Manager:  Buyer initial Balance {"hbars":"4509.9990471 ℏ","tokens":[]}
-[2023-10-16T13:10:20.923Z] REC Manager:  Seller initial Balance {"hbars":"5129.74857665 ℏ","tokens":[]}
-[2023-10-16T14:34:26.772Z] REC Manager:  Buyer Final Balance {"hbars":"1329.56499012 ℏ","tokens":[]}
-[2023-10-16T14:34:27.103Z] REC Manager:  Seller Final Balance {"hbars":"4961.30628 ℏ","tokens":[]}
+[2023-10-19T11:19:36.985Z] REC Manager:  Buyer initial Balance {"hbars":"5490.64396232 ℏ","tokens":[]}
+[2023-10-19T11:19:37.454Z] REC Manager:  Seller initial Balance {"hbars":"9451.42355663 ℏ","tokens":[]}
+[2023-10-19T12:02:16.302Z] REC Manager:  Buyer final Balance {"hbars":"2278.18977032 ℏ","tokens":[]}
+[2023-10-19T12:02:16.552Z] REC Manager:  Seller final Balance {"hbars":"9338.13744662 ℏ","tokens":[]}

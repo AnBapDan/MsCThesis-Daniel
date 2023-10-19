@@ -60,7 +60,6 @@ export async function issuePayment(contractId: string, accountId: string, paymen
     .setPayableAmount(new Hbar(price))
 
   const promptResponse = await prompt.execute(buyer)
-
   const promptReceipt = await promptResponse.getReceipt(buyer)
 
   return { status: promptReceipt.status.toString(), transaction: promptResponse.transactionId.toString() }
@@ -97,7 +96,6 @@ export async function retrievePayment(contractId: string, paymentId: number, cli
   const promptResponse = await prompt.execute(client)
   const result = promptResponse.getResult(['uint', 'address'])[0]
   logger.log('Transaction '+prompt.paymentTransactionId)
-  logger.log(' Gas used on transaction above '+ promptResponse.gasUsed)
   return result
 }
 

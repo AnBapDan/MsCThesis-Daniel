@@ -13,11 +13,12 @@ const contractId = "0.0.5699479"
 export async function buyer(iteration:number) {
     /**Load from file */
     const output = getEntry(iteration)
-    console.log(output)
+    //console.log(output)
     if(output?.buyerID === undefined){
-        console.log('No value for this timestamp')
+        //console.log('No value for this timestamp')
         process.exit(0)
     }
+    // console.log(((output?.price!*output?.energy!)/0.05).toFixed(8))
     const result = await issuePayment(
         contractId,
         accountSeller.operatorAccountId?.toString()!,
@@ -26,8 +27,7 @@ export async function buyer(iteration:number) {
         accountBuyer
         )
 
-    logger.log('Transaction '+result.transaction)
-    logger.log('Status code '+result.status)
-    await getOwner(contractId,accountBuyer)
+    logger.log('Transaction = '+result.transaction+ '\t Status ='+ result.status)
+    await new Promise(f => setTimeout(f, 100));
     process.exit(0)
 }

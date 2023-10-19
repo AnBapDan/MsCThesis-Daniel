@@ -1,62 +1,6 @@
 timestamp: "2023-09-12T17:00:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.057,price: 0.0962,id: "65009a3ec9ccfdb40edf73ae",createdAt: "2023-09-12T17:15:15Z",transactionID: "0.0.1034@1694538902.187900581",transactionState: Paid
 timestamp: "2023-09-12T17:15:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.037,price: 0.0962,id: "65009dc21326fd32fff43713",createdAt: "2023-09-12T17:30:15Z",transactionID: "0.0.1034@1694539802.673052244",transactionState: Paid
 timestamp: "2023-09-12T17:30:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.027,price: 0.0962,id: "6500a146590e348e7d41e191",createdAt: "2023-09-12T17:45:16Z",transactionID: "0.0.1034@1694540700.625230365",transactionState: Paid
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 timestamp: "2023-09-13T07:45:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.004,price: 0.0962,id: "650169aa25136b2f551df1d5",createdAt: "2023-09-13T08:00:16Z",transactionID: "0.0.1034@1694592000.130067504",transactionState: Paid
 timestamp: "2023-09-13T08:00:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.026,price: 0.0962,id: "65016d2e674741d9d73bf900",createdAt: "2023-09-13T08:15:15Z",transactionID: "0.0.1034@1694592902.725005991",transactionState: Paid
 timestamp: "2023-09-13T08:15:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.037,price: 0.0962,id: "650170b153483f6f494e1a87",createdAt: "2023-09-13T08:30:15Z",transactionID: "0.0.1034@1694593803.140254669",transactionState: Paid
@@ -67,92 +11,7 @@ timestamp: "2023-09-13T09:15:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",ene
 timestamp: "2023-09-13T09:30:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.312,price: 0.0962,id: "650182461985283cf3e0978b",createdAt: "2023-09-13T09:45:15Z",transactionID: "0.0.1034@1694598299.764849294",transactionState: Paid
 timestamp: "2023-09-13T09:45:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.34,price: 0.0962,id: "650185cadedb229a217049ab",createdAt: "2023-09-13T10:00:15Z",transactionID: "0.0.1034@1694599203.687195526",transactionState: Paid
 timestamp: "2023-09-13T10:00:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.307,price: 0.0962,id: "6501894ed7ec85e9dc6f5897",createdAt: "2023-09-13T21:00:15Z",transactionID: "0.0.1034@1694638799.607107319",transactionState: Paid
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 timestamp: "2023-09-14T07:15:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.002,price: 0.0962,id: "6502b42281932502f5792a3e",createdAt: "2023-09-14T07:30:15Z",transactionID: "0.0.1034@1694676599.617885497",transactionState: Paid
-
 timestamp: "2023-09-14T07:45:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.024,price: 0.0962,id: "6502bb2ae9a18b7f5bd39168",createdAt: "2023-09-14T08:15:14Z",transactionID: "0.0.1034@1694678399.688231304",transactionState: Paid
 timestamp: "2023-09-14T08:00:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.026,price: 0.0962,id: "6502beae9ce2d3121e49aa3f",createdAt: "2023-09-14T08:15:15Z",transactionID: "0.0.1034@1694679302.011346746",transactionState: Paid
 timestamp: "2023-09-14T08:15:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.026,price: 0.0962,id: "6502c23255e2fcf0b4c1ec3a",createdAt: "2023-09-14T08:30:15Z",transactionID: "0.0.1034@1694680203.636233503",transactionState: Paid
@@ -184,70 +43,6 @@ timestamp: "2023-09-14T14:30:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",ene
 timestamp: "2023-09-14T14:45:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.338,price: 0.0962,id: "65031d99e93fd5a0b5d0ca24",createdAt: "2023-09-14T15:00:15Z",transactionID: "0.0.1034@1694703599.038078824",transactionState: Paid
 timestamp: "2023-09-14T15:00:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.338,price: 0.0962,id: "6503211e32e88a5147977441",createdAt: "2023-09-14T15:15:16Z",transactionID: "0.0.1034@1694704503.106409770",transactionState: Paid
 timestamp: "2023-09-14T15:15:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.301,price: 0.0962,id: "650324a25e2f755b56d43f61",createdAt: "2023-09-14T15:45:14Z",transactionID: "-1",transactionState: Errormessage: " Something went wrong when fetching the exchange rate",
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 timestamp: "2023-09-15T07:30:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.025,price: 0.0962,id: "650409251bb18ffaa51cb9c2",createdAt: "2023-09-15T07:45:14Z",transactionID: "0.0.1034@1694763898.322762477",transactionState: Paid
 timestamp: "2023-09-15T07:45:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.033,price: 0.0962,id: "65040caa4e2b72e4dc33792a",createdAt: "2023-09-15T08:00:15Z",transactionID: "0.0.1034@1694764800.856297387",transactionState: Paid
 timestamp: "2023-09-15T08:00:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.041,price: 0.0962,id: "6504102e5ef2badf7e6ba6e5",createdAt: "2023-09-15T08:15:15Z",transactionID: "0.0.1034@1694765701.875370111",transactionState: Paid
@@ -290,174 +85,23 @@ timestamp: "2023-09-15T17:00:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",ene
 timestamp: "2023-09-15T17:15:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.032,price: 0.0962,id: "6504924203f144aeb85cf868",createdAt: "2023-09-15T17:30:15Z",transactionID: "0.0.1034@1694799002.290097678",transactionState: Paid
 timestamp: "2023-09-15T17:30:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.014,price: 0.0962,id: "650495c56306250c9eef3fc6",createdAt: "2023-09-15T17:45:15Z",transactionID: "0.0.1034@1694799903.204064673",transactionState: Paid
 timestamp: "2023-09-15T17:45:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.003,price: 0.0962,id: "6504994aa43a5d6f23cbd19b",createdAt: "2023-09-15T18:00:16Z",transactionID: "0.0.1034@1694800802.735795233",transactionState: Paid
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 timestamp: "2023-09-16T08:00:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.015,price: 0.0962,id: "650561aee733d83fe2f821fb",createdAt: "2023-09-16T08:15:15Z",transactionID: "0.0.1034@1694852099.547822266",transactionState: Paid
 timestamp: "2023-09-16T08:15:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.006,price: 0.0962,id: "65056532d8357d613f5f26cb",createdAt: "2023-09-16T08:30:15Z",transactionID: "0.0.1034@1694852998.574374074",transactionState: Paid
-
 timestamp: "2023-09-16T08:45:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.061,price: 0.0962,id: "65056c3ab6e1428e9f8b95a9",createdAt: "2023-09-16T09:15:15Z",transactionID: "0.0.1034@1694854802.456714772",transactionState: Paid
 timestamp: "2023-09-16T09:00:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.132,price: 0.0962,id: "65056fbdfc019372ba54a80b",createdAt: "2023-09-16T09:15:15Z",transactionID: "0.0.1034@1694855699.264312232",transactionState: Paid
 timestamp: "2023-09-16T09:15:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.044,price: 0.0962,id: "65057342708cf23984e61b19",createdAt: "2023-09-16T09:30:15Z",transactionID: "0.0.1034@1694856598.232051927",transactionState: Paid
-
-
-
-
 timestamp: "2023-09-16T10:30:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.053,price: 0.0962,id: "650584d6e7159942eb18bb70",createdAt: "2023-09-16T10:45:16Z",transactionID: "0.0.1034@1694861103.146056945",transactionState: Paid
 timestamp: "2023-09-16T10:45:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.025,price: 0.0962,id: "650588594a054932f7496685",createdAt: "2023-09-16T11:00:15Z",transactionID: "0.0.1034@1694862001.931462606",transactionState: Paid
 timestamp: "2023-09-16T11:00:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.162,price: 0.0962,id: "65058bdedf36d258485e17f8",createdAt: "2023-09-16T11:15:16Z",transactionID: "0.0.1034@1694862903.502848245",transactionState: Paid
 timestamp: "2023-09-16T11:15:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.027,price: 0.0962,id: "65058f627aaeb30413d610c0",createdAt: "2023-09-16T11:30:16Z",transactionID: "0.0.1034@1694863803.464448156",transactionState: Paid
 timestamp: "2023-09-16T11:30:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.037,price: 0.0962,id: "650592e6083626bc4f23fa86",createdAt: "2023-09-16T11:45:15Z",transactionID: "0.0.1034@1694864699.873478673",transactionState: Paid
 timestamp: "2023-09-16T11:45:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.041,price: 0.0962,id: "6505966945f84c3a1a20d645",createdAt: "2023-09-16T12:00:15Z",transactionID: "0.0.1034@1694865602.730975983",transactionState: Paid
-
-
-
 timestamp: "2023-09-16T12:45:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.026,price: 0.0962,id: "6505a47922cccf738354cad3",createdAt: "2023-09-16T13:00:16Z",transactionID: "0.0.1034@1694869203.436056222",transactionState: Paid
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 timestamp: "2023-09-17T08:30:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.022,price: 0.0962,id: "6506ba355125941271f830d8",createdAt: "2023-09-17T08:45:15Z",transactionID: "0.0.1034@1694940302.259004136",transactionState: Paid
-
-
 timestamp: "2023-09-17T09:15:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.024,price: 0.0962,id: "6506c4c12ee9acc252bf84c1",createdAt: "2023-09-17T09:30:15Z",transactionID: "0.0.1034@1694943000.075426080",transactionState: Paid
 timestamp: "2023-09-17T09:30:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.008,price: 0.0962,id: "6506c846c0b901a10b7d3511",createdAt: "2023-09-17T09:45:15Z",transactionID: "0.0.1034@1694943901.086962107",transactionState: Paid
 timestamp: "2023-09-17T09:45:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.033,price: 0.0962,id: "6506cbca91c220619c5211a5",createdAt: "2023-09-17T10:00:15Z",transactionID: "0.0.1034@1694944801.305294116",transactionState: Paid
 timestamp: "2023-09-17T10:00:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.041,price: 0.0962,id: "6506cf4e1258ec8ade66ac0d",createdAt: "2023-09-17T10:15:15Z",transactionID: "0.0.1034@1694945700.266226014",transactionState: Paid
-
-
-
-
-
-
-
 timestamp: "2023-09-17T12:00:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.031,price: 0.0962,id: "6506eb6d3beaf8597d849ce6",createdAt: "2023-09-17T12:15:17Z",transactionID: "0.0.1034@1694952902.963460217",transactionState: Paid
 timestamp: "2023-09-17T12:15:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.027,price: 0.0962,id: "6506eef25d45775c55f46a7d",createdAt: "2023-09-17T12:30:14Z",transactionID: "0.0.1034@1694953798.147114976",transactionState: Paid
 timestamp: "2023-09-17T12:30:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.026,price: 0.0962,id: "6506f276ff5d2d8c7b2b22a4",createdAt: "2023-09-17T12:45:14Z",transactionID: "0.0.1034@1694954702.426404976",transactionState: Paid
@@ -468,77 +112,11 @@ timestamp: "2023-09-17T13:30:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",ene
 timestamp: "2023-09-17T13:45:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.026,price: 0.0962,id: "6507040af8c07e183595a1a9",createdAt: "2023-09-17T14:00:14Z",transactionID: "0.0.1034@1694959201.301928907",transactionState: Paid
 timestamp: "2023-09-17T14:00:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.026,price: 0.0962,id: "6507078d32240c901247e580",createdAt: "2023-09-17T14:15:15Z",transactionID: "0.0.1034@1694960098.867271212",transactionState: Paid
 timestamp: "2023-09-17T14:15:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.027,price: 0.0962,id: "65070b1278c8978a11e80847",createdAt: "2023-09-17T14:30:15Z",transactionID: "0.0.1034@1694961001.574551565",transactionState: Paid
-
-
-
-
-
-
-
-
-
 timestamp: "2023-09-17T16:45:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.037,price: 0.0962,id: "65072e3a9562a484849d1d7f",createdAt: "2023-09-17T17:00:14Z",transactionID: "0.0.1034@1694969999.257209572",transactionState: Paid
 timestamp: "2023-09-17T17:00:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.026,price: 0.0962,id: "650731bd79ca6d71da73af11",createdAt: "2023-09-17T17:15:15Z",transactionID: "0.0.1034@1694970898.927669265",transactionState: Paid
 timestamp: "2023-09-17T17:15:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.015,price: 0.0962,id: "6507354291e10130a9a47a88",createdAt: "2023-09-17T17:30:15Z",transactionID: "0.0.1034@1694971799.468182543",transactionState: Paid
 timestamp: "2023-09-17T17:30:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.001,price: 0.0962,id: "650738c6504fb5ba7c4f053d",createdAt: "2023-09-17T17:45:15Z",transactionID: "0.0.1034@1694972702.796744977",transactionState: Paid
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 timestamp: "2023-09-18T07:30:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.002,price: 0.0962,id: "6507fda6fbc7b4d6e5f6fac6",createdAt: "2023-09-18T07:45:14Z",transactionID: "0.0.1034@1695023099.917869508",transactionState: Paid
-
-
 timestamp: "2023-09-18T08:15:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.024,price: 0.0962,id: "650808322af0af242d88c672",createdAt: "2023-09-18T08:30:14Z",transactionID: "0.0.1034@1695025802.808269655",transactionState: Paid
 timestamp: "2023-09-18T08:30:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.026,price: 0.0962,id: "65080bb67494747efcab6279",createdAt: "2023-09-18T08:45:14Z",transactionID: "0.0.1034@1695026698.562225817",transactionState: Paid
 timestamp: "2023-09-18T08:45:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.026,price: 0.0962,id: "65080f3a062c954777a1f348",createdAt: "2023-09-18T09:00:15Z",transactionID: "0.0.1034@1695027598.495927901",transactionState: Paid
@@ -554,11 +132,6 @@ timestamp: "2023-09-18T11:00:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",ene
 timestamp: "2023-09-18T11:15:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.114,price: 0.0962,id: "650832625781fac80db8b334",createdAt: "2023-09-18T11:30:15Z",transactionID: "0.0.1034@1695036601.650291011",transactionState: Paid
 timestamp: "2023-09-18T11:30:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.179,price: 0.0962,id: "650835e681e2f00c37aacad7",createdAt: "2023-09-18T11:45:15Z",transactionID: "0.0.1034@1695037501.832153278",transactionState: Paid
 timestamp: "2023-09-18T11:45:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.09,price: 0.0962,id: "6508396a5a1fb26937a6b8f6",createdAt: "2023-09-18T12:00:15Z",transactionID: "0.0.1034@1695038399.442188600",transactionState: Paid
-
-
-
-
-
 timestamp: "2023-09-18T13:15:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.011,price: 0.0962,id: "65084e81ab49b1fcadb4117c",createdAt: "2023-09-18T13:30:17Z",transactionID: "0.0.1034@1695043800.779495102",transactionState: Paid
 timestamp: "2023-09-18T13:30:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.195,price: 0.0962,id: "65085206339a52d09ef4526d",createdAt: "2023-09-18T13:45:15Z",transactionID: "0.0.1034@1695044702.469346475",transactionState: Paid
 timestamp: "2023-09-18T13:45:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.274,price: 0.0962,id: "6508558a34fc7d556cc8ae6c",createdAt: "2023-09-18T14:00:15Z",transactionID: "0.0.1034@1695045602.959057917",transactionState: Paid
@@ -567,75 +140,8 @@ timestamp: "2023-09-18T14:15:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",ene
 timestamp: "2023-09-18T14:30:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.105,price: 0.0962,id: "650860157dd2de900a95cd06",createdAt: "2023-09-18T14:45:15Z",transactionID: "0.0.1034@1695048302.294180585",transactionState: Paid
 timestamp: "2023-09-18T14:45:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.052,price: 0.0962,id: "6508639ae2ab6893d86fef0b",createdAt: "2023-09-18T15:00:15Z",transactionID: "0.0.1034@1695049202.957770047",transactionState: Paid
 timestamp: "2023-09-18T15:00:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.088,price: 0.0962,id: "6508671e247490858d7a8c35",createdAt: "2023-09-18T15:15:15Z",transactionID: "0.0.1034@1695050101.499100398",transactionState: Paid
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 timestamp: "2023-09-19T07:45:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.014,price: 0.0962,id: "650952aac600d92dc2b9128f",createdAt: "2023-09-19T08:00:15Z",transactionID: "0.0.1034@1695110398.134105704",transactionState: Paid
 timestamp: "2023-09-19T08:00:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.029,price: 0.0962,id: "6509562edc2fd4b8034aabe7",createdAt: "2023-09-19T08:15:15Z",transactionID: "0.0.1034@1695111298.369507012",transactionState: Paid
-
 timestamp: "2023-09-19T08:30:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.04,price: 0.0962,id: "65095d36c4363e31e0d1df2d",createdAt: "2023-09-19T09:00:15Z",transactionID: "0.0.1034@1695113098.803745570",transactionState: Paid
 timestamp: "2023-09-19T08:45:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.064,price: 0.0962,id: "650960b9875a90dc76351a3e",createdAt: "2023-09-19T09:00:15Z",transactionID: "0.0.1034@1695114003.022585660",transactionState: Paid
 timestamp: "2023-09-19T09:00:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.106,price: 0.0962,id: "6509643e3473bf687c55f801",createdAt: "2023-09-19T09:15:15Z",transactionID: "0.0.1034@1695114902.683475535",transactionState: Paid
@@ -652,9 +158,6 @@ timestamp: "2023-09-19T11:30:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",ene
 timestamp: "2023-09-19T11:45:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.309,price: 0.0962,id: "65098aeaeab60a9066bf8c0e",createdAt: "2023-09-19T12:00:15Z",transactionID: "0.0.1034@1695124800.741258440",transactionState: Paid
 timestamp: "2023-09-19T12:00:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.261,price: 0.0962,id: "65098e6e3d02b69a9934a3e9",createdAt: "2023-09-19T12:15:14Z",transactionID: "0.0.1034@1695125702.201734246",transactionState: Paid
 timestamp: "2023-09-19T12:15:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.168,price: 0.0962,id: "650991f2d40b9c6b43d39614",createdAt: "2023-09-19T12:30:15Z",transactionID: "0.0.1034@1695126598.876135595",transactionState: Paid
-
-
-
 timestamp: "2023-09-19T13:15:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.193,price: 0.0962,id: "6509a002dae0d35c11ddd7ef",createdAt: "2023-09-19T13:30:15Z",transactionID: "0.0.1034@1695130201.339192924",transactionState: Paid
 timestamp: "2023-09-19T13:30:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.228,price: 0.0962,id: "6509a386e2b9df210102db03",createdAt: "2023-09-19T13:45:15Z",transactionID: "0.0.1034@1695131102.801547871",transactionState: Paid
 timestamp: "2023-09-19T13:45:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.285,price: 0.0962,id: "6509a70a51c723d3306b5319",createdAt: "2023-09-19T14:00:15Z",transactionID: "0.0.1034@1695131999.167777176",transactionState: Paid
@@ -671,61 +174,6 @@ timestamp: "2023-09-19T16:15:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",ene
 timestamp: "2023-09-19T16:30:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.158,price: 0.0962,id: "6509cdb6210ef44f720d9ce4",createdAt: "2023-09-19T16:45:15Z",transactionID: "0.0.1034@1695141900.909642012",transactionState: Paid
 timestamp: "2023-09-19T16:45:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.16,price: 0.0962,id: "6509d139fbde29d876d4c4a6",createdAt: "2023-09-19T17:00:15Z",transactionID: "0.0.1034@1695142799.275478454",transactionState: Paid
 timestamp: "2023-09-19T17:00:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.085,price: 0.0962,id: "6509d4be69a117a938580ef8",createdAt: "2023-09-19T17:15:15Z",transactionID: "0.0.1034@1695143701.357722745",transactionState: Paid
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 timestamp: "2023-09-20T07:00:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.026,price: 0.0962,id: "650a999eb63b2713f0d0d9e9",createdAt: "2023-09-20T07:15:14Z",transactionID: "0.0.1034@1695194098.898958276",transactionState: Paid
 timestamp: "2023-09-20T07:15:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.029,price: 0.0962,id: "650a9d227e1b88613b1926f2",createdAt: "2023-09-20T07:30:15Z",transactionID: "0.0.1034@1695194999.694596482",transactionState: Paid
 timestamp: "2023-09-20T07:30:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.032,price: 0.0962,id: "650aa0a5f955929772b5df8a",createdAt: "2023-09-20T07:45:16Z",transactionID: "0.0.1034@1695195900.887496949",transactionState: Paid
@@ -748,9 +196,6 @@ timestamp: "2023-09-20T11:30:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",ene
 timestamp: "2023-09-20T11:45:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.18,price: 0.0962,id: "650adc6ae6feb2e6d3d4b08c",createdAt: "2023-09-20T12:00:15Z",transactionID: "0.0.1034@1695211198.786571738",transactionState: Paid
 timestamp: "2023-09-20T12:00:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.173,price: 0.0962,id: "650adfee52730d5a3471b738",createdAt: "2023-09-20T12:15:15Z",transactionID: "0.0.1034@1695212102.245329484",transactionState: Paid
 timestamp: "2023-09-20T12:15:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.091,price: 0.0962,id: "650ae37214bf5bed4b04341c",createdAt: "2023-09-20T12:30:15Z",transactionID: "0.0.1034@1695212998.430464157",transactionState: Paid
-
-
-
 timestamp: "2023-09-20T13:15:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.164,price: 0.0962,id: "650af182a6ab23dc78d0146e",createdAt: "2023-09-20T13:30:16Z",transactionID: "0.0.1034@1695216599.964524812",transactionState: Paid
 timestamp: "2023-09-20T13:30:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.187,price: 0.0962,id: "650af5061b4301df408f6f3e",createdAt: "2023-09-20T13:45:15Z",transactionID: "0.0.1034@1695217501.590938079",transactionState: Paid
 timestamp: "2023-09-20T13:45:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.244,price: 0.0962,id: "650af88a89d66ab453fe5b92",createdAt: "2023-09-20T14:00:15Z",transactionID: "0.0.1034@1695218398.506626705",transactionState: Paid
@@ -768,10 +213,3 @@ timestamp: "2023-09-20T16:30:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",ene
 timestamp: "2023-09-20T16:45:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.099,price: 0.0962,id: "650b22ba65d3db25e0def89f",createdAt: "2023-09-20T17:00:16Z",transactionID: "0.0.1034@1695229201.045344015",transactionState: Paid
 timestamp: "2023-09-20T17:00:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.093,price: 0.0962,id: "650b263e68a09c35e56702f1",createdAt: "2023-09-20T17:15:15Z",transactionID: "0.0.1034@1695230101.792515657",transactionState: Paid
 timestamp: "2023-09-20T17:15:00Z",buyerID: "es-sms-15",sellerID: "es-sms-18",energy: 0.046,price: 0.0962,id: "650b29c2b71139b2e1498f67",createdAt: "2023-09-20T17:30:15Z",transactionID: "0.0.1034@1695231000.623615649",transactionState: Paid
-
-
-
-
-
-
-

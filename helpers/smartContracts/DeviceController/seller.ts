@@ -1,5 +1,3 @@
-import { AccountId, Client, ContractCallQuery, ContractFunctionParameters, Hbar, PrivateKey, TransactionId } from "@hashgraph/sdk";
-import { getEntry } from "../config/parseLogMarket";
 import { confirmPayment, getMemo, getOwner, retrievePayment, retrievePendingIds } from "../interact";
 import { accountSeller } from "../utils/accounts";
 import { Logger } from "./logs/logger";
@@ -39,7 +37,7 @@ export async function seller() {
     //Bypass validation = All payments approved
     const txid = await confirmPayment(contractId, numberids, [0], accountSeller)
     logger.log('Transaction '+ txid)
-
+    await new Promise(f => setTimeout(f, 100));
     process.exit(0)
 }
 seller()

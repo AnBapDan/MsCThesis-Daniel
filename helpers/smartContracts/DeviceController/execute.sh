@@ -5,11 +5,12 @@
 # Start a for loop to iterate through the list
 for ((i=0; i<=777; i++))
 do
-  echo '__________________________________________'
+  # echo '__________________________________________'
   echo 'iteraction ' $i
   ts-node execute.ts buyer $i
-  echo '__________________________________________'
-  echo 'seller...'
+  # sleep 3
+  # echo '__________________________________________'
+  # echo 'seller...'
   ts-node seller.ts
 done
 
