@@ -8,11 +8,18 @@ cursor = connection.cursor()
 
 def main():
 
+    # file_path = '/home/dani/Documents/MsCThesis-Daniel/metrics/contracts/device/buyerendpoints.txt'
     file_path = '/home/dani/Documents/MsCThesis-Daniel/metrics/contracts/device/sellerendpoints.txt'
 
 
-        # Create a new table called LocalPackets
-    cursor.execute('''CREATE TABLE IF NOT EXISTS buyerTx (
+
+    # cursor.execute('''CREATE TABLE IF NOT EXISTS buyerTx (
+    #                 transaction_id TEXT,
+    #                charged_tx_fee INTEGER,
+    #                amount INTEGER
+    #             )''')
+    
+    cursor.execute('''CREATE TABLE IF NOT EXISTS sellerTx (
                     transaction_id TEXT,
                    charged_tx_fee INTEGER,
                    amount INTEGER
@@ -33,13 +40,34 @@ def main():
 
 def request(line):
     response = requests.get(line)
-    # print(response.json()['transactions'])
+
     for transaction in response.json()['transactions']:
-        cursor.execute("INSERT INTO buyerTx (transaction_id,charged_tx_fee,amount ) VALUES (?, ?, ?)", \
-                       (transaction['transaction_id'],transaction['charged_tx_fee'],transaction['transfers'][len(transaction['transfers'])-1]['amount']))
+        negativo = 0
+
+        for values in transaction['transfers']:
+            if values['account'] == '0.0.4551481':
+                negativo = values["amount"]
+        
+        # cursor.execute("INSERT INTO buyerTx (transaction_id,charged_tx_fee,amount ) VALUES (?, ?, ?)", \
+        #                (transaction['transaction_id'],transaction['charged_tx_fee'],negativo))
+        cursor.execute("INSERT INTO sellerTx (transaction_id,charged_tx_fee,amount ) VALUES (?, ?, ?)", \
+                       (transaction['transaction_id'],transaction['charged_tx_fee'],negativo))
+
+
+
         # print(transaction['transaction_id'])
         # print(transaction['charged_tx_fee'])
         # print(transaction['transfers'][len(transaction['transfers'])-1]['amount'])
 
+
+
+def fetchTx():
+    # first = '/api/v1/transactions?account.id=0.0.4551131&timestamp=gte:1697714837.891331363'
+    first = '/api/v1/transactions?account.id=0.0.4551481&timestamp=gte:1697714837.791571146'
+    response = requests.get(baseUrl+first)
+
+    while response.json()['links']['next']:
+         print(baseUrl+response.json()['links']['next'])
+         response = requests.get(baseUrl+response.json()['links']['next'])
 
 main()

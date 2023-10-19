@@ -1,30 +1,31 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.8.2 <0.9.0;
 
-contract DeviceConfirmTransaction{
-
+contract DeviceConfirmTransaction {
     struct Payment {
         uint quantity;
         address from;
     }
-    
+
     address public owner;
     mapping(address => bool) private allowedDevices;
-    mapping(address => mapping(uint => Payment) payments) private pendingApproval;
+    mapping(address => mapping(uint => Payment) payments)
+        private pendingApproval;
     mapping(address => uint[]) private pendingIds;
-    mapping(address => uint) private paid;
 
-    modifier ownerRestricted{
+    modifier ownerRestricted() {
         require(owner == msg.sender);
         _;
     }
 
-    constructor(){
+    constructor() {
         owner = msg.sender;
     }
 
     //Device methods
-    function insertDevices(address[] memory newDevices) external ownerRestricted {
+    function insertDevices(
+        address[] memory newDevices
+    ) external ownerRestricted {
         for (uint i = 0; i < newDevices.length; i++) {
             allowedDevices[newDevices[i]] = true;
         }
@@ -40,49 +41,77 @@ contract DeviceConfirmTransaction{
     }
 
     function issuePayment(address to, uint paymentId) external payable {
-        //TODO check if already exists id
-        //require(pendingApproval[to][paymentId].quantity == 0);
+        require(allowedDevices[msg.sender], "Device is not allowed");
+        require(
+                msg.value > 0,
+                "Payment quantity must be greater than 0"
+            );
+        require(
+            pendingApproval[to][paymentId].quantity == 0 &&
+                pendingApproval[to][paymentId].from == address(0),
+            "Payment already set"
+        );
         pendingApproval[to][paymentId] = Payment({
             quantity: msg.value,
             from: msg.sender
         });
 
         pendingIds[to].push(paymentId);
-
     }
 
-    function retrievePendingIds() external returns(uint[] memory){
+    function retrievePendingIds() external returns (uint[] memory) {
         uint[] memory tmp = pendingIds[msg.sender];
         delete pendingIds[msg.sender];
         return tmp;
     }
 
-    function retrievePayments(uint index) external view returns(Payment memory){        
+    function retrievePayments(
+        uint index
+    ) external view returns (Payment memory) {
         return pendingApproval[msg.sender][index];
     }
 
-    function confirmPayment(uint[] calldata accepted, uint[] calldata denied) external {
-        require(allowedDevices[msg.sender]);
+    function confirmPayment(
+        uint[] calldata accepted,
+        uint[] calldata denied
+    ) external {
+
+        require(allowedDevices[msg.sender], "Device is not allowed");
         mapping(uint => Payment) storage walletPending = pendingApproval[msg.sender];
+        uint income = 0;
+        for (uint16 i = 0; i < accepted.length; i++) {
+            uint paymentId = accepted[i];
+            Payment storage acceptedPayment = walletPending[paymentId];
 
-        for (uint16 i = 0; i < accepted.length; i++) 
-        {
-           Payment storage acceptedPayment = walletPending[accepted[i]] ;
-           uint quantity = acceptedPayment.quantity;
-           acceptedPayment.quantity = 0;
-           paid[msg.sender] += quantity;
-           delete walletPending[accepted[i]];
+            // Perform internal state changes
+            income += acceptedPayment.quantity;
+            acceptedPayment.quantity = 0;
+            delete walletPending[paymentId];
+
         }
+        // Interact with external contracts last
+        address payable caller = payable(msg.sender);
+        (bool paid, ) = caller.call{value: income}("");
+        require(paid, "Payment Transfer failed");
+        income = 0;    
 
-        for (uint16 i = 0; i < denied.length; i++) 
-        {
-            Payment storage deniedPayment = walletPending[denied[i]] ;
+        for (uint16 i = 0; i < denied.length; i++) {
+            uint paymentId = denied[i];
+            Payment storage deniedPayment = walletPending[paymentId];
+            if(deniedPayment.quantity==0){
+                continue;
+            }
+
+            // Perform internal state changes
             uint quantity = deniedPayment.quantity;
             deniedPayment.quantity = 0;
-            payable(deniedPayment.from).transfer(quantity);
-            delete walletPending[denied[i]];
-        }
 
+            // Interact with external contracts last
+            address payable recipient = payable(deniedPayment.from);
+            (bool success, ) = recipient.call{value: quantity}("");
+            require(success, "Refunds failed");
+            delete walletPending[paymentId];
+        }
     }
 
     // fallback() external payable{

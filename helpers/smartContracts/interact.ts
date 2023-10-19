@@ -1,4 +1,4 @@
-import { AccountId, Client, ContractCallQuery, ContractExecuteTransaction, ContractFunctionParameters, ContractInfoQuery, Hbar, TransactionId } from "@hashgraph/sdk";
+import { AccountId, Client, ContractCallQuery, ContractExecuteTransaction, ContractFunctionParameters, ContractInfoQuery, Hbar, HbarUnit, TransactionId } from "@hashgraph/sdk";
 import { Logger } from "./DeviceController/logs/logger";
 
 
@@ -48,7 +48,7 @@ export async function removeDevice(contractId: string, accountId: string, admin:
 
 /** Buyer exclusive Methods */
 export async function issuePayment(contractId: string, accountId: string, paymentId: number, price: number, buyer: Client): Promise<{ status: string, transaction: string }> {
-
+  console.log(price)
   const accid = AccountId.fromString(accountId)
   const prompt = new ContractExecuteTransaction()
     .setContractId(contractId)
@@ -57,7 +57,7 @@ export async function issuePayment(contractId: string, accountId: string, paymen
         .addAddress(accid.toSolidityAddress())
         .addUint256(paymentId))
     .setGas(10000000)
-    .setPayableAmount(new Hbar(price))
+    .setPayableAmount(new Hbar(price,HbarUnit.Hbar))
 
   const promptResponse = await prompt.execute(buyer)
   const promptReceipt = await promptResponse.getReceipt(buyer)
@@ -67,14 +67,6 @@ export async function issuePayment(contractId: string, accountId: string, paymen
 
 /** Validation Entity Exclusive Methods (Seller or Administrator) */
 export async function retrievePendingIds(contractId: string, client: Client, logger:Logger) {
-  // const contractQueryTx = new ContractCallQuery()
-  // .setContractId(contractId)
-  // .setGas(100000)
-  // .setFunction("retrievePendingIds", new ContractFunctionParameters())
-  // .setMaxQueryPayment(new Hbar(1))
-  // const contractQuerySubmit = await contractQueryTx.execute(client)
-  // const array = contractQuerySubmit.getResult(["uint[]"])[0]
-
   const query = new ContractExecuteTransaction()
     .setContractId(contractId)
     .setFunction('retrievePendingIds', new ContractFunctionParameters())
@@ -95,6 +87,7 @@ export async function retrievePayment(contractId: string, paymentId: number, cli
 
   const promptResponse = await prompt.execute(client)
   const result = promptResponse.getResult(['uint', 'address'])[0]
+  console.log("RESULTADO ="+ result)
   logger.log('Transaction '+prompt.paymentTransactionId)
   return result
 }
@@ -108,7 +101,7 @@ export async function confirmPayment(contractId: string, accepted: number[], den
       new ContractFunctionParameters()
         .addUint256Array(accepted)
         .addUint256Array(denied))
-    .setGas(100000)
+    .setGas(1000000)
 
   const promptResponse = await prompt.execute(client)
   return promptResponse.transactionId

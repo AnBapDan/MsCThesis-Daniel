@@ -11,7 +11,7 @@ const logger = new Logger(logFilePath, 'REC Manager');
 
 
 /** Contract ID for Device Controlled Contract */
-const contractId = "0.0.5699479"
+const contractId = "0.0.5734607"
 
 async function overwatch() {
     const pending = await retrievePendingIds(contractId, accountOwner, logger)
@@ -83,10 +83,9 @@ async function addBalance() {
         .execute(accountOwner);
     process.exit(0)
 }
-queryBalances()
 
 
+// /init()
 
-
-// insert(accountBuyer.operatorAccountId?.toString()!)
-// insert(accountSeller.operatorAccountId?.toString()!)
+insert(accountBuyer.operatorAccountId?.toString()!)
+insert(accountSeller.operatorAccountId?.toString()!)
