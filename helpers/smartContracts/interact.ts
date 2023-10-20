@@ -56,7 +56,7 @@ export async function issuePayment(contractId: string, accountId: string, paymen
       new ContractFunctionParameters()
         .addAddress(accid.toSolidityAddress())
         .addUint256(paymentId))
-    .setGas(10000000)
+    .setGas(150000)
     .setPayableAmount(new Hbar(price,HbarUnit.Hbar))
 
   const promptResponse = await prompt.execute(buyer)
@@ -70,7 +70,7 @@ export async function retrievePendingIds(contractId: string, client: Client, log
   const query = new ContractExecuteTransaction()
     .setContractId(contractId)
     .setFunction('retrievePendingIds', new ContractFunctionParameters())
-    .setGas(100000)
+    .setGas(40000)
   const result = await query.execute(client)
   const record = await result.getRecord(client)
   logger.log('Transaction '+result.transactionId)
@@ -81,19 +81,17 @@ export async function retrievePendingIds(contractId: string, client: Client, log
 export async function retrievePayment(contractId: string, paymentId: number, client: Client, logger:Logger) {
   const prompt = new ContractCallQuery()
     .setContractId(contractId)
-    .setGas(100000)
+    .setGas(40000)
     .setFunction("retrievePayments", new ContractFunctionParameters().addUint256(paymentId))
     .setMaxQueryPayment(new Hbar(1));
 
   const promptResponse = await prompt.execute(client)
   const result = promptResponse.getResult(['uint', 'address'])[0]
-  console.log("RESULTADO ="+ result)
   logger.log('Transaction '+prompt.paymentTransactionId)
   return result
 }
 
 export async function confirmPayment(contractId: string, accepted: number[], denied: number[], client: Client): Promise<TransactionId> {
-
 
   const prompt = new ContractExecuteTransaction()
     .setContractId(contractId)
@@ -101,7 +99,7 @@ export async function confirmPayment(contractId: string, accepted: number[], den
       new ContractFunctionParameters()
         .addUint256Array(accepted)
         .addUint256Array(denied))
-    .setGas(1000000)
+    .setGas(55000)
 
   const promptResponse = await prompt.execute(client)
   return promptResponse.transactionId

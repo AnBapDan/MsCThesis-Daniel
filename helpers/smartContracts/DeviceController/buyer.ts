@@ -8,7 +8,7 @@ const logFilePath = './logs/buyer.log';
 const logger = new Logger(logFilePath, 'Buyer');
 
 /** Contract ID for Device Controlled Contract */
-const contractId = "0.0.5734607"
+const contractId = "0.0.5735767"
 
 export async function buyer(iteration:number) {
     /**Load from file */
@@ -31,5 +31,3 @@ export async function buyer(iteration:number) {
     await new Promise(f => setTimeout(f, 100));
     process.exit(0)
 }
-
-buyer(0)

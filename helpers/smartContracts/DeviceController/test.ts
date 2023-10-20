@@ -51,13 +51,14 @@ async function showContractBalanceFcn(cId: string) {
 }
 
 async function levantar() {
-    const contractExecuteTx = new ContractExecuteTransaction()
-        .setContractId(contractid)
-        .setGas(800000)
-        .setFunction('transferHbar', new ContractFunctionParameters().addUint256(999999990))
-    const contractExecuteSubmit = await contractExecuteTx.execute(accountOwner);
-    const contractExecuteRx = await contractExecuteSubmit.getReceipt(accountOwner);
-    console.log(contractExecuteRx);
+   console.log (accountOwner._network._network)
+    // const contractExecuteTx = new ContractExecuteTransaction()
+    //     .setContractId(contractid)
+    //     .setGas(800000)
+    //     .setFunction('transferHbar', new ContractFunctionParameters().addUint256(999999990))
+    // const contractExecuteSubmit = await contractExecuteTx.execute(accountOwner);
+    // const contractExecuteRx = await contractExecuteSubmit.getReceipt(accountOwner);
+    // console.log(contractExecuteRx);
 }
 //levantar()
-showContractBalanceFcn('0.0.5734607')
+showContractBalanceFcn('0.0.5735767')

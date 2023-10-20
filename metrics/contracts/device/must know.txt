@@ -1,0 +1,7 @@
+Seller:
+[2023-10-20T10:14:11.154Z] REC Manager:  Seller initial Balance {"hbars":"13664.04929054 ℏ","tokens":[]}
+[2023-10-20T10:47:33.062Z] REC Manager:  Seller final Balance   {"hbars":"13679.72269989 ℏ","tokens":[]}
+
+Buyer:
+[2023-10-20T10:14:10.870Z] REC Manager:  Buyer initial Balance {"hbars":"6107.07935637 ℏ","tokens":[]}
+[2023-10-20T10:47:32.892Z] REC Manager:  Buyer final   Balance {"hbars":"5995.93349637 ℏ","tokens":[]}

@@ -8,22 +8,22 @@ cursor = connection.cursor()
 
 def main():
 
-    # file_path = '/home/dani/Documents/MsCThesis-Daniel/metrics/contracts/device/buyerendpoints.txt'
-    file_path = '/home/dani/Documents/MsCThesis-Daniel/metrics/contracts/device/sellerendpoints.txt'
+    file_path = '/home/dani/Documents/MsCThesis-Daniel/metrics/contracts/device/buyerendpoints.txt'
+    # file_path = '/home/dani/Documents/MsCThesis-Daniel/metrics/contracts/device/sellerendpoints.txt'
 
 
 
-    # cursor.execute('''CREATE TABLE IF NOT EXISTS buyerTx (
-    #                 transaction_id TEXT,
-    #                charged_tx_fee INTEGER,
-    #                amount INTEGER
-    #             )''')
-    
-    cursor.execute('''CREATE TABLE IF NOT EXISTS sellerTx (
+    cursor.execute('''CREATE TABLE IF NOT EXISTS buyerTx (
                     transaction_id TEXT,
                    charged_tx_fee INTEGER,
                    amount INTEGER
                 )''')
+    
+    # cursor.execute('''CREATE TABLE IF NOT EXISTS sellerTx (
+    #                 transaction_id TEXT,
+    #                charged_tx_fee INTEGER,
+    #                amount INTEGER
+    #             )''')
     with open(file_path, 'r') as file:
         for line in file:
             try:
@@ -45,13 +45,13 @@ def request(line):
         negativo = 0
 
         for values in transaction['transfers']:
-            if values['account'] == '0.0.4551481':
-                negativo = values["amount"]
+            if values['account'] == '0.0.4551131':
+                negativo += values["amount"]
         
-        # cursor.execute("INSERT INTO buyerTx (transaction_id,charged_tx_fee,amount ) VALUES (?, ?, ?)", \
-        #                (transaction['transaction_id'],transaction['charged_tx_fee'],negativo))
-        cursor.execute("INSERT INTO sellerTx (transaction_id,charged_tx_fee,amount ) VALUES (?, ?, ?)", \
+        cursor.execute("INSERT INTO buyerTx (transaction_id,charged_tx_fee,amount ) VALUES (?, ?, ?)", \
                        (transaction['transaction_id'],transaction['charged_tx_fee'],negativo))
+        # cursor.execute("INSERT INTO sellerTx (transaction_id,charged_tx_fee,amount ) VALUES (?, ?, ?)", \
+        #                (transaction['transaction_id'],transaction['charged_tx_fee'],negativo))
 
 
 
@@ -62,12 +62,11 @@ def request(line):
 
 
 def fetchTx():
-    # first = '/api/v1/transactions?account.id=0.0.4551131&timestamp=gte:1697714837.891331363'
-    first = '/api/v1/transactions?account.id=0.0.4551481&timestamp=gte:1697714837.791571146'
-    response = requests.get(baseUrl+first)
 
+    first = '/api/v1/transactions?account.id=0.0.4551131&timestamp=gte:1697796863.587033063'
+    #first = '/api/v1/transactions?account.id=0.0.4551481&timestamp=gte:1697796869.092427962'
+    response = requests.get(baseUrl+first)
     while response.json()['links']['next']:
          print(baseUrl+response.json()['links']['next'])
          response = requests.get(baseUrl+response.json()['links']['next'])
-
 main()

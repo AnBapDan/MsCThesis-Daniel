@@ -11,7 +11,7 @@ export const accountBuyer = Client.forTestnet().setOperator(
     PrivateKey.fromString("302e020100300506032b657004220420198aeeeda0427e672437d47ec1fafbaca1925fbb9603c16857520ac2c3008b49")
 );
 
-// export const accountOwner = Client.forTestnet().setOperator(
+// export const accountBuyer = Client.forTestnet().setOperator(
 //   AccountId.fromString("0.0.5731999"),
 //   PrivateKey.fromString("302e020100300506032b65700422042041a0f5c10365dcc40a23db3d5f12523cb8b33359f9d93737fa924953b7039ea5")
 // );
