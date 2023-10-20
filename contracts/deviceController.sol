@@ -9,8 +9,7 @@ contract DeviceConfirmTransaction {
 
     address public owner;
     mapping(address => bool) private allowedDevices;
-    mapping(address => mapping(uint => Payment) payments)
-        private pendingApproval;
+    mapping(address => mapping(uint => Payment) payments) private pendingApproval;
     mapping(address => uint[]) private pendingIds;
 
     modifier ownerRestricted() {
@@ -23,9 +22,7 @@ contract DeviceConfirmTransaction {
     }
 
     //Device methods
-    function insertDevices(
-        address[] memory newDevices
-    ) external ownerRestricted {
+    function insertDevices(address[] memory newDevices) external ownerRestricted {
         for (uint i = 0; i < newDevices.length; i++) {
             allowedDevices[newDevices[i]] = true;
         }
@@ -37,20 +34,12 @@ contract DeviceConfirmTransaction {
 
     function removeDevice(address oldDevice) external ownerRestricted {
         delete allowedDevices[oldDevice];
-        //allowedDevices[oldDevice] = false;
     }
 
     function issuePayment(address to, uint paymentId) external payable {
         require(allowedDevices[msg.sender], "Device is not allowed");
-        require(
-                msg.value > 0,
-                "Payment quantity must be greater than 0"
-            );
-        require(
-            pendingApproval[to][paymentId].quantity == 0 &&
-                pendingApproval[to][paymentId].from == address(0),
-            "Payment already set"
-        );
+        require(msg.value > 0,"Payment quantity must be greater than 0");
+        require(pendingApproval[to][paymentId].quantity == 0 && pendingApproval[to][paymentId].from == address(0),"Payment already set");
         pendingApproval[to][paymentId] = Payment({
             quantity: msg.value,
             from: msg.sender
@@ -65,17 +54,11 @@ contract DeviceConfirmTransaction {
         return tmp;
     }
 
-    function retrievePayments(
-        uint index
-    ) external view returns (Payment memory) {
+    function retrievePayments(uint index) external view returns (Payment memory) {
         return pendingApproval[msg.sender][index];
     }
 
-    function confirmPayment(
-        uint[] calldata accepted,
-        uint[] calldata denied
-    ) external {
-
+    function confirmPayment(uint[] calldata accepted,uint[] calldata denied) external {
         require(allowedDevices[msg.sender], "Device is not allowed");
         mapping(uint => Payment) storage walletPending = pendingApproval[msg.sender];
         uint income = 0;
@@ -114,7 +97,4 @@ contract DeviceConfirmTransaction {
         }
     }
 
-    // fallback() external payable{
-
-    // }
 }

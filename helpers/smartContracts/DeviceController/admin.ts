@@ -36,15 +36,6 @@ async function remove(accountId: string) {
 }
 
 async function init() {
-    // const contractRec = await deployContract(
-    //     '../../../bin/contracts/ComsolveController.bin',
-    //     'Ready to Test (all-mighty)',
-    //     accountOwner
-    // )
-    // logger.log('Transaction ' + contractRec.txid)
-    // logger.log('Contract REC ' + contractRec.contractid)
-
-
     const contractDev = await deployContract(
         '../../../bin/contracts/DeviceConfirmTransaction.bin',
         'Ready to Test(peers-control)',

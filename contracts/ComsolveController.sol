@@ -9,17 +9,16 @@ contract ComsolveController {
     }
 
     address public owner;
-    
-    error UnauthorizedAccess(address issuer);
+    mapping(address => bool) allowedDevices;
     mapping(uint => Payment) pendingApproval;
     uint[] pendingId;
-    mapping(address => uint) payed;
-    mapping(address => bool) allowedDevices;
-    bool private isRetrievingPending = false;
-    bool private isPendingLocked = false;
+
+    modifier ownerRestricted() {
+        require(owner == msg.sender);
+        _;
+    }
 
     constructor() {
-        //Conta do "servidor"
         owner = msg.sender;
     }
 
@@ -31,83 +30,73 @@ contract ComsolveController {
     }
 
     function insertDevice(address newDevice) external ownerRestricted {
-        //allowedDevices.push(newDevice);
         allowedDevices[newDevice] = true;
     }
 
     function removeDevice(address oldDevice) external ownerRestricted {
-        allowedDevices[oldDevice] = false;
+        delete allowedDevices[oldDevice];
     }
 
     function issuePayment(address to, uint paymentId) external payable {
-        require(allowedDevices[to] && msg.value != 0);
-        require(
-            !isRetrievingPending,
-            "Cannot issue payment while a retrieval is in progress"
-        );
-        require(!isPendingLocked, "Pending is currently locked");
-
-        isPendingLocked = true;
-
+        require(allowedDevices[msg.sender], "Device is not allowed");
+        require(msg.value > 0,"Payment quantity must be greater than 0");
+        require(pendingApproval[paymentId].quantity == 0 && pendingApproval[paymentId].from == address(0),"Payment already set");
         pendingApproval[paymentId] = Payment({
             quantity: msg.value,
             from: msg.sender,
             to: to
         });
-        pendingId.push(paymentId);
 
-        isPendingLocked = false;
+        pendingId.push(paymentId);
     }
 
-    function retrievePending() external ownerRestricted returns (uint[] memory){
-        require(
-            !isRetrievingPending,
-            "Cannot retrieve pending while another retrieval is in progress"
-        );
-
-        isRetrievingPending = true;
-        isPendingLocked = true;
-
+    function retrievePendingIds() external ownerRestricted returns (uint[] memory) {
         uint[] memory tmp = pendingId;
         delete pendingId;
-
-        isPendingLocked = false;
-        isRetrievingPending = false;
-
         return tmp;
     }
 
-    function confirmPayment( uint[] calldata accepted, uint[] calldata denied) external ownerRestricted {
-        for (uint16 i; i < accepted.length; i++) {
-            Payment memory confirm = pendingApproval[accepted[i]];
-            uint quantity = confirm.quantity;
-            delete pendingApproval[accepted[i]];
-            payed[confirm.to] += quantity;
-        }
-
-        for (uint16 i; i < denied.length; i++) {
-            Payment memory refunding = pendingApproval[denied[i]];
-            uint quantity = refunding.quantity;
-            delete pendingApproval[denied[i]];
-            payable(refunding.from).transfer(quantity);
-        }
+    function retrievePayments(uint index) external ownerRestricted view returns (Payment memory) {
+        return pendingApproval[index];
     }
 
-    function withdrawFunds() external deviceRestriced {
-        uint quantity = payed[msg.sender];
-        delete payed[msg.sender];
-        payable(msg.sender).transfer(quantity);
-    }
+    function confirmPayment(uint[] calldata accepted,uint[] calldata denied) external ownerRestricted() {
 
-    modifier deviceRestriced{
-        require(allowedDevices[msg.sender]);
-        _;
-    }
+        for (uint16 i = 0; i < accepted.length; i++) {
+            uint paymentId = accepted[i];
+            Payment storage acceptedPayment = pendingApproval[paymentId];
 
-    modifier ownerRestricted() {
-        if (msg.sender != owner) {
-            revert UnauthorizedAccess({issuer: msg.sender});
+            if(acceptedPayment.quantity==0){
+                continue;
+            }
+            // Perform internal state changes
+            uint quantity = acceptedPayment.quantity;
+            acceptedPayment.quantity = 0;
+
+            // Interact with external contracts last
+            address payable recipient = payable(acceptedPayment.to);
+            (bool success, ) = recipient.call{value: quantity}("");
+            require(success, "Payment failed");
+            delete pendingApproval[paymentId];
         }
-        _;
+
+
+        for (uint16 i = 0; i < denied.length; i++) {
+            uint paymentId = denied[i];
+            Payment storage deniedPayment = pendingApproval[paymentId];
+            if(deniedPayment.quantity==0){
+                continue;
+            }
+
+            // Perform internal state changes
+            uint quantity = deniedPayment.quantity;
+            deniedPayment.quantity = 0;
+
+            // Interact with external contracts last
+            address payable recipient = payable(deniedPayment.from);
+            (bool success, ) = recipient.call{value: quantity}("");
+            require(success, "Refunds failed");
+            delete pendingApproval[paymentId];
+        }
     }
 }

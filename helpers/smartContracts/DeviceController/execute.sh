@@ -10,8 +10,8 @@ do
   ts-node execute.ts buyer $i
   # sleep 3
   # echo '__________________________________________'
-  # echo 'seller...'
-  # ts-node seller.ts
+  echo 'seller...'
+  ts-node seller.ts
 done
 
 echo "All items processed"
