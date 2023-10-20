@@ -8,22 +8,22 @@ cursor = connection.cursor()
 
 def main():
 
-    file_path = '/home/dani/Documents/MsCThesis-Daniel/metrics/contracts/rec/buyerendpoints.txt'
-    # file_path = '/home/dani/Documents/MsCThesis-Daniel/metrics/contracts/device/sellerendpoints.txt'
+    # file_path = '/home/dani/Documents/MsCThesis-Daniel/metrics/contracts/rec/buyerendpoints.txt'
+    file_path = '/home/dani/Documents/MsCThesis-Daniel/metrics/contracts/rec/recendpoints.txt'
 
 
 
-    cursor.execute('''CREATE TABLE IF NOT EXISTS buyerTx (
-                    transaction_id TEXT,
-                   charged_tx_fee INTEGER,
-                   amount INTEGER
-                )''')
-    
-    # cursor.execute('''CREATE TABLE IF NOT EXISTS sellerTx (
+    # cursor.execute('''CREATE TABLE IF NOT EXISTS buyerTx (
     #                 transaction_id TEXT,
     #                charged_tx_fee INTEGER,
     #                amount INTEGER
     #             )''')
+    
+    cursor.execute('''CREATE TABLE IF NOT EXISTS recTx (
+                    transaction_id TEXT,
+                   charged_tx_fee INTEGER,
+                   amount INTEGER
+                )''')
     with open(file_path, 'r') as file:
         for line in file:
             try:
@@ -45,13 +45,13 @@ def request(line):
         negativo = 0
 
         for values in transaction['transfers']:
-            if values['account'] == '0.0.4551131':
+            if values['account'] == '0.0.829465':
                 negativo += values["amount"]
         
-        cursor.execute("INSERT INTO buyerTx (transaction_id,charged_tx_fee,amount ) VALUES (?, ?, ?)", \
-                       (transaction['transaction_id'],transaction['charged_tx_fee'],negativo))
-        # cursor.execute("INSERT INTO sellerTx (transaction_id,charged_tx_fee,amount ) VALUES (?, ?, ?)", \
+        # cursor.execute("INSERT INTO buyerTx (transaction_id,charged_tx_fee,amount ) VALUES (?, ?, ?)", \
         #                (transaction['transaction_id'],transaction['charged_tx_fee'],negativo))
+        cursor.execute("INSERT INTO recTx (transaction_id,charged_tx_fee,amount ) VALUES (?, ?, ?)", \
+                       (transaction['transaction_id'],transaction['charged_tx_fee'],negativo))
 
 
 
@@ -63,8 +63,8 @@ def request(line):
 
 def fetchTx():
 
-    #first = '/api/v1/transactions?account.id=0.0.829465&timestamp=gte:1697822839.513854941'
-    first = '/api/v1/transactions?account.id=0.0.4551131&timestamp=gte:1697822834.736595096'
+    first = '/api/v1/transactions?account.id=0.0.829465&timestamp=gte:1697822839.513854941'
+    #first = '/api/v1/transactions?account.id=0.0.4551131&timestamp=gte:1697822834.736595096'
     response = requests.get(baseUrl+first)
     while response.json()['links']['next']:
          print(baseUrl+response.json()['links']['next'])
