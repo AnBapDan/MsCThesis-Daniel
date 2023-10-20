@@ -37,13 +37,14 @@ print('Seller final value:'+str(seller_data[-1]))
 x_values = list(range(1, max(len(seller_data), len(buyer_data)) + 1))
 
 # Plot the data
-plt.plot(x_values[:len(seller_data)], seller_data, label='SellerTx', marker='o')
-plt.plot(x_values[:len(buyer_data)], buyer_data, label='BuyerTx', marker='s')
+plt.plot(x_values[:len(seller_data)], seller_data, label='SellerWallet', marker='o')
+plt.plot(x_values[:len(buyer_data)], buyer_data, label='BuyerWallet', marker='s')
 
 # Set axis labels and a legend
-plt.xlabel('Temporal Transactions')
-plt.ylabel('Wallet FUnds (HBar)')
-plt.legend()
-
+plt.xlabel('Temporal Transactions',fontsize=40)
+plt.ylabel('Wallet Funds (HBar)',fontsize=40)
+plt.legend(fontsize=36)
+plt.xticks(fontsize=36)  # Adjust the fontsize as needed
+plt.yticks(fontsize=36)  # Adjust the fontsize as needed
 # Display the chart
 plt.show()

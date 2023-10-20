@@ -3,7 +3,7 @@
 # Define a list of items (numbers in this case)
 
 # Start a for loop to iterate through the list
-for ((i=0; i<=777; i++))
+for ((i=0; i<=214; i++))
 do
   # echo '__________________________________________'
   echo 'iteraction ' $i
@@ -11,7 +11,7 @@ do
   # sleep 3
   # echo '__________________________________________'
   # echo 'seller...'
-  ts-node seller.ts
+  # ts-node seller.ts
 done
 
 echo "All items processed"
